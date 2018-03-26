@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyVC: UIViewController {
+class MyVC: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +35,24 @@ class MyVC: UIViewController {
         currentLabel.textColor = .darkGray
         view.addSubview(currentLabel)
         return currentLabel
+    }
+    func ssTextField(placeholder: String, y: CGFloat, x : CGFloat = 50, width: CGFloat = 90, height: CGFloat = 8, bacgroundColor : UIColor = .orange ) -> UITextField{
+        
+        currentTextField = UITextField()
+        currentTextField.backgroundColor = bacgroundColor
+        currentTextField.placeholder = placeholder
+        currentTextField.textAlignment = .center
+        currentTextField.font = UIFont.systemFont(ofSize: 26)
+        currentTextField.adjustsFontSizeToFitWidth = true
+        currentTextField.contentScaleFactor = 0.5
+        
+        currentTextField.bounds = CGRect(x: 0, y: 0, width: w * width / 100, height: h * height / 100)
+        currentTextField.center = CGPoint(x: w * x / 100, y: h * y / 100)
+        
+        currentTextField.textColor = .darkGray
+        currentTextField.delegate = self
+        view.addSubview(currentTextField)
+        return currentTextField
     }
     
     func ssButton(title: String, width: CGFloat, height: CGFloat, x: CGFloat, y: CGFloat, fun: String = "", backgroundColor: UIColor = .orange, titleColor: UIColor = .black ) -> UIButton{
