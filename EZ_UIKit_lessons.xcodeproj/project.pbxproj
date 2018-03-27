@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B212520693FD400F083F9 /* VC9_0.swift */; };
+		7C0B2128206942C200F083F9 /* VC9_0_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B2127206942C200F083F9 /* VC9_0_1.swift */; };
+		7C0B212A2069470000F083F9 /* VC9_0_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B21292069470000F083F9 /* VC9_0_2.swift */; };
+		7C0B212C20694B5900F083F9 /* VC9_0_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B212B20694B5900F083F9 /* VC9_0_3.swift */; };
 		7C2F875C20666D60004D395E /* VC8_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2F875B20666D60004D395E /* VC8_1.swift */; };
 		E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */; };
 		E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BAB205F2E3A00D865F1 /* ViewController.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C0B212520693FD400F083F9 /* VC9_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC9_0.swift; sourceTree = "<group>"; };
+		7C0B2127206942C200F083F9 /* VC9_0_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC9_0_1.swift; sourceTree = "<group>"; };
+		7C0B21292069470000F083F9 /* VC9_0_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC9_0_2.swift; sourceTree = "<group>"; };
+		7C0B212B20694B5900F083F9 /* VC9_0_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC9_0_3.swift; sourceTree = "<group>"; };
 		7C2F875B20666D60004D395E /* VC8_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC8_1.swift; sourceTree = "<group>"; };
 		E35A6BA6205F2E3A00D865F1 /* EZ_UIKit_lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZ_UIKit_lessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +151,10 @@
 				E3B9A96F2063BF090052E312 /* VC7_1.swift */,
 				E3B9A97620642BE80052E312 /* VC7_1_Second.swift */,
 				7C2F875B20666D60004D395E /* VC8_1.swift */,
+				7C0B212520693FD400F083F9 /* VC9_0.swift */,
+				7C0B2127206942C200F083F9 /* VC9_0_1.swift */,
+				7C0B21292069470000F083F9 /* VC9_0_2.swift */,
+				7C0B212B20694B5900F083F9 /* VC9_0_3.swift */,
 			);
 			path = arhiveVCs;
 			sourceTree = "<group>";
@@ -238,12 +250,16 @@
 				E3F7AEE52060096B00FBC190 /* VC6_1.swift in Sources */,
 				E35A6BC3205F2F8300D865F1 /* InitViewController.swift in Sources */,
 				E35A6BD1205F30EA00D865F1 /* VC5_4_SecondView.swift in Sources */,
+				7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */,
+				7C0B2128206942C200F083F9 /* VC9_0_1.swift in Sources */,
 				E3B9A9702063BF090052E312 /* VC7_1.swift in Sources */,
 				E3F7AEEA20613B1000FBC190 /* songClass.swift in Sources */,
+				7C0B212A2069470000F083F9 /* VC9_0_2.swift in Sources */,
 				E35A6BBF205F2F0400D865F1 /* GlobalVariables.swift in Sources */,
 				E35A6BC1205F2F5E00D865F1 /* ExtensionForVC.swift in Sources */,
 				E35A6BCF205F30BF00D865F1 /* VC5_4.swift in Sources */,
 				E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */,
+				7C0B212C20694B5900F083F9 /* VC9_0_3.swift in Sources */,
 				E3B9A97720642BE80052E312 /* VC7_1_Second.swift in Sources */,
 				E35A6BC5205F2FAE00D865F1 /* VC5_5.swift in Sources */,
 				E35A6BCB205F305700D865F1 /* VC5_1_2.swift in Sources */,
