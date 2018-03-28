@@ -23,16 +23,12 @@ class VC9_0_2: MyVC {
          UIApplication.statusBarBackgroundColor = .black
 
         UIApplication.shared.statusBarStyle = .lightContent
-
-
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         UIApplication.shared.statusBarStyle = .lightContent
         perform(#selector(goBack), with: nil, afterDelay: 3.0)
-        
     }
-    
     override func viewWillAppear(_ animated: Bool) {
         navController.navigationBar.isTranslucent = false
          UIApplication.statusBarBackgroundColor = .black
@@ -40,9 +36,6 @@ class VC9_0_2: MyVC {
         navController.navigationBar.backgroundColor = .white
 
     }
-    
-
-    
     @objc func goBack(){
 //        navigationController?.popViewController(animated: true)
         //Получаем текущий массив контроллеров. Это то же самое, что и просто 26 строка(на один выше текущей, но более объёмно для понимания)
@@ -59,9 +52,7 @@ class VC9_0_2: MyVC {
         }
         navigationController?.viewControllers = newController
         
-        
     }
-    
     @objc func doSwitch(sender: UISwitch){
         if sender.isOn{
             print("On")
@@ -69,8 +60,5 @@ class VC9_0_2: MyVC {
         else{
             print("Off")
         }
-    
     }
-    
-
 }
