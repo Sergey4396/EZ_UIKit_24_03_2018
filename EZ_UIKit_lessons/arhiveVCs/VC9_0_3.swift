@@ -10,7 +10,14 @@ import UIKit
 
 class VC9_0_3: MyVC {
 
+
+//    override func loadView() {
+//navController.navigationBar.backgroundColor = .orange
+//    }
+    
     override func viewDidLoad() {
+        
+
         super.viewDidLoad()
         title = "VC9_0_3"
         
@@ -26,6 +33,11 @@ class VC9_0_3: MyVC {
         navController.navigationBar.backgroundColor = .orange
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        UIApplication.statusBarBackgroundColor = .blue
+        navController.navigationBar.tintColor = .red
+        navController.navigationBar.backgroundColor = .orange
+    }
 
 
 

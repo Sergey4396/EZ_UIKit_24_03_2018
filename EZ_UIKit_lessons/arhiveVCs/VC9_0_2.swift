@@ -35,7 +35,10 @@ class VC9_0_2: MyVC {
     
     override func viewWillAppear(_ animated: Bool) {
         navController.navigationBar.isTranslucent = false
+         UIApplication.statusBarBackgroundColor = .black
         UIApplication.shared.statusBarStyle = .lightContent
+        navController.navigationBar.backgroundColor = .white
+
     }
     
 
