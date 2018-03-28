@@ -19,13 +19,27 @@ class VC9_0_2: MyVC {
         simpleSwich.addTarget(self, action: #selector(doSwitch(sender:)), for: .valueChanged)
 
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: simpleSwich)
-        
+
+         UIApplication.statusBarBackgroundColor = .black
+
+        UIApplication.shared.statusBarStyle = .lightContent
+
+
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
+        UIApplication.shared.statusBarStyle = .lightContent
         perform(#selector(goBack), with: nil, afterDelay: 3.0)
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navController.navigationBar.isTranslucent = false
+        UIApplication.shared.statusBarStyle = .lightContent
+    }
+    
+
+    
     @objc func goBack(){
 //        navigationController?.popViewController(animated: true)
         //Получаем текущий массив контроллеров. Это то же самое, что и просто 26 строка(на один выше текущей, но более объёмно для понимания)

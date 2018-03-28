@@ -22,6 +22,34 @@ class VC9_0_1: MyVC {
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .camera, target: self, action: #selector(forBarButton(sender:)))
         
+        setSwipeForNav()
+
+        UIApplication.statusBarBackgroundColor = .white
+        
+
+        
+        
+    }
+    
+
+    
+    override func viewDidAppear(_ animated: Bool) {
+        navController.navigationBar.isTranslucent = true
+    }
+    
+
+    
+    
+    func setSwipeForNav(){
+        //🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻{добавляем свайп - это когда пальцем двигаешь влево и телефон это понимает
+        let upSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeNavDetected(swipe:)))
+        upSwipe.direction = UISwipeGestureRecognizerDirection.up
+        self.view.addGestureRecognizer(upSwipe)
+        //🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹}
+    }
+    
+    @objc func swipeNavDetected(swipe: UISwipeGestureRecognizer){
+        navController.navigationBar.isTranslucent = false// = falsetintColor = .clear
     }
     
     
