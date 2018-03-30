@@ -22,9 +22,9 @@ class MyVC: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func ssLabel(text: String, width: CGFloat, height: CGFloat, x: CGFloat, y: CGFloat,  backgroundColor: UIColor = .yellow, titleColor: UIColor = .black ) -> UILabel{
+    func ssLabel(text: String, width: CGFloat, height: CGFloat, x: CGFloat, y: CGFloat,  backgroundColor: UIColor = .yellow, textColor: UIColor = .black ) -> UILabel{
         currentLabel = UILabel()
-        currentLabel.backgroundColor = .orange
+        currentLabel.backgroundColor = backgroundColor
         currentLabel.text = text
         currentLabel.textAlignment = .center
         currentLabel.font = UIFont.systemFont(ofSize: 26)
@@ -32,7 +32,7 @@ class MyVC: UIViewController, UITextFieldDelegate {
         currentLabel.contentScaleFactor = 0.5
         currentLabel.bounds = CGRect(x: 0, y: 0, width: w * width / 100, height: h * height / 100)
         currentLabel.center = CGPoint(x: w * x / 100, y: h * y / 100)
-        currentLabel.textColor = .darkGray
+        currentLabel.textColor = textColor
         view.addSubview(currentLabel)
         return currentLabel
     }
@@ -53,6 +53,39 @@ class MyVC: UIViewController, UITextFieldDelegate {
         currentTextField.delegate = self
         view.addSubview(currentTextField)
         return currentTextField
+    }
+    
+    func ssTextView(text: String, y: CGFloat, x : CGFloat = 50, width: CGFloat = 95, height: CGFloat, backgroundColor : UIColor = .lightGray, textColor : UIColor = .black ) -> UITextView{
+        
+        currentTextView = UITextView()
+        currentTextView.backgroundColor = backgroundColor
+        currentTextView.text = text
+        currentTextView.textAlignment = .center
+        currentTextView.font = UIFont.systemFont(ofSize: 26)
+
+        currentTextView.contentScaleFactor = 0.5
+        
+        currentTextView.bounds = CGRect(x: 0, y: 0, width: w * width / 100, height: h * height / 100)
+        currentTextView.center = CGPoint(x: w * x / 100, y: h * y / 100)
+        
+        currentTextView.textColor = textColor
+
+        view.addSubview(currentTextView)
+        return currentTextView
+    }
+    
+    func ssImageView(image: String, y: CGFloat, x : CGFloat = 50, width: CGFloat, height: CGFloat) -> UIImageView{
+        
+        currentImageView = UIImageView()
+        
+        let image = UIImage(named: image)
+        currentImageView.image = image
+        currentImageView.bounds = CGRect(x: 0, y: 0, width: w * width / 100, height: h * height / 100)
+        currentImageView.center = CGPoint(x: w * x / 100, y: h * y / 100)
+        currentImageView.contentMode = .scaleAspectFit
+
+        view.addSubview(currentImageView)
+        return currentImageView
     }
     
     func ssButton(title: String, width: CGFloat, height: CGFloat, x: CGFloat, y: CGFloat, fun: String = "", backgroundColor: UIColor = .orange, titleColor: UIColor = .black ) -> UIButton{

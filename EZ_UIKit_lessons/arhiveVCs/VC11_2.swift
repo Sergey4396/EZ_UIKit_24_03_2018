@@ -10,6 +10,7 @@ import UIKit
 
 class VC11_2: MyVC {
 
+    var imageView : UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
  //       title = "Second VC"
@@ -19,6 +20,17 @@ class VC11_2: MyVC {
         var tabBarItem = UITabBarItem()
         tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 1)
         self.tabBarItem = tabBarItem
+        
+//        let gifToplay = UIImage.gif(name: "funny")
+//        imageView.image = gifToplay
+        imageView = UIImageView()
+        imageView.loadGif(name: "homer")
+        imageView.frame = CGRect(x: w50, y: h50, width: w80, height: w80)
+        imageView.contentMode = .scaleAspectFit
+        imageView.center = CGPoint(x: w50, y: h50)
+        view.addSubview(imageView)
+        
+
         
     }
 

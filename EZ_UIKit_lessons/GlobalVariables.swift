@@ -19,6 +19,8 @@ var currentPickerView : UIPickerView!
 var currentLabel: UILabel!
 var currentTextField : UITextField!
 var currentSegmentedControl : UISegmentedControl!
+var currentImageView : UIImageView!
+var currentTextView : UITextView!
 
 var currentSlider : UISlider!
 var opsButton : UIButton!
@@ -63,6 +65,8 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "8 - 1", controller: VC8_1())
     _ = AllFirstControllersStruct(name: "9 - 0", controller: VC9_0())
     _ = AllFirstControllersStruct(name: "11 - 0", controller: VC11_1())
+    _ = AllFirstControllersStruct(name: "11 - 3", controller: VC11_3())
+    _ = AllFirstControllersStruct(name: "12", controller: VC12())
     isVCset = true
 }
 

@@ -14,6 +14,14 @@
 		7C0B212E206BB25A00F083F9 /* VC11_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B212D206BB25A00F083F9 /* VC11_1.swift */; };
 		7C0B2130206BB90500F083F9 /* VC11_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B212F206BB90500F083F9 /* VC11_2.swift */; };
 		7C2F875C20666D60004D395E /* VC8_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2F875B20666D60004D395E /* VC8_1.swift */; };
+		7C53B729206C3C53004A1A48 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B728206C3C53004A1A48 /* swift+gif.swift */; };
+		7C53B72B206C400A004A1A48 /* homer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C53B72A206C4009004A1A48 /* homer.gif */; };
+		7C53B72D206C5A1A004A1A48 /* VC11_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B72C206C5A1A004A1A48 /* VC11_3.swift */; };
+		7C53B72F206C5A5A004A1A48 /* VC11_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B72E206C5A5A004A1A48 /* VC11_4.swift */; };
+		7C53B731206DC24C004A1A48 /* you can.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C53B730206DC24B004A1A48 /* you can.gif */; };
+		7C53B733206DC598004A1A48 /* mad fry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C53B732206DC598004A1A48 /* mad fry.gif */; };
+		7CAF33CA206E4BBF00D909E4 /* VC12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF33C9206E4BBF00D909E4 /* VC12.swift */; };
+		7CAF33CC206E4E2A00D909E4 /* VC12_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF33CB206E4E2A00D909E4 /* VC12_1.swift */; };
 		E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */; };
 		E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BAB205F2E3A00D865F1 /* ViewController.swift */; };
 		E35A6BB2205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BB0205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld */; };
@@ -51,6 +59,14 @@
 		7C0B212D206BB25A00F083F9 /* VC11_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_1.swift; sourceTree = "<group>"; };
 		7C0B212F206BB90500F083F9 /* VC11_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_2.swift; sourceTree = "<group>"; };
 		7C2F875B20666D60004D395E /* VC8_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC8_1.swift; sourceTree = "<group>"; };
+		7C53B728206C3C53004A1A48 /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
+		7C53B72A206C4009004A1A48 /* homer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = homer.gif; sourceTree = "<group>"; };
+		7C53B72C206C5A1A004A1A48 /* VC11_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_3.swift; sourceTree = "<group>"; };
+		7C53B72E206C5A5A004A1A48 /* VC11_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_4.swift; sourceTree = "<group>"; };
+		7C53B730206DC24B004A1A48 /* you can.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "you can.gif"; sourceTree = "<group>"; };
+		7C53B732206DC598004A1A48 /* mad fry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "mad fry.gif"; sourceTree = "<group>"; };
+		7CAF33C9206E4BBF00D909E4 /* VC12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC12.swift; sourceTree = "<group>"; };
+		7CAF33CB206E4E2A00D909E4 /* VC12_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC12_1.swift; sourceTree = "<group>"; };
 		E35A6BA6205F2E3A00D865F1 /* EZ_UIKit_lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZ_UIKit_lessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35A6BAB205F2E3A00D865F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,11 +137,15 @@
 				E3B9A96D2062CF960052E312 /* CoreDataFunctions.swift */,
 				E35A6BC0205F2F5E00D865F1 /* ExtensionForVC.swift */,
 				E35A6BC2205F2F8300D865F1 /* InitViewController.swift */,
+				7C53B728206C3C53004A1A48 /* swift+gif.swift */,
 				E35A6BD2205F312900D865F1 /* arhiveVCs */,
 				E35A6BB3205F2E3A00D865F1 /* Assets.xcassets */,
 				E3B9A960206181AA0052E312 /* music */,
 				E3B9A96520618D100052E312 /* music */,
 				E35A6BB5205F2E3A00D865F1 /* LaunchScreen.storyboard */,
+				7C53B72A206C4009004A1A48 /* homer.gif */,
+				7C53B730206DC24B004A1A48 /* you can.gif */,
+				7C53B732206DC598004A1A48 /* mad fry.gif */,
 				E3B9A975206408290052E312 /* 1.jpeg */,
 				E3B9A974206408220052E312 /* 3.jpg */,
 				E3B9A9732064081C0052E312 /* 2.jpg */,
@@ -161,6 +181,10 @@
 				7C0B212B20694B5900F083F9 /* VC9_0_3.swift */,
 				7C0B212D206BB25A00F083F9 /* VC11_1.swift */,
 				7C0B212F206BB90500F083F9 /* VC11_2.swift */,
+				7C53B72C206C5A1A004A1A48 /* VC11_3.swift */,
+				7C53B72E206C5A5A004A1A48 /* VC11_4.swift */,
+				7CAF33C9206E4BBF00D909E4 /* VC12.swift */,
+				7CAF33CB206E4E2A00D909E4 /* VC12_1.swift */,
 			);
 			path = arhiveVCs;
 			sourceTree = "<group>";
@@ -232,8 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C53B731206DC24C004A1A48 /* you can.gif in Resources */,
+				7C53B72B206C400A004A1A48 /* homer.gif in Resources */,
 				E3B9A9632061832C0052E312 /* Nezhnost.mp3 in Resources */,
 				E35A6BB7205F2E3A00D865F1 /* LaunchScreen.storyboard in Resources */,
+				7C53B733206DC598004A1A48 /* mad fry.gif in Resources */,
 				E3B9A96620618D110052E312 /* music in Resources */,
 				E35A6BB4205F2E3A00D865F1 /* Assets.xcassets in Resources */,
 			);
@@ -249,9 +276,11 @@
 				E3B9A968206239F60052E312 /* VC6_2.swift in Sources */,
 				E35A6BC7205F2FF100D865F1 /* SecondViewController.swift in Sources */,
 				E3B9A96C20623A2C0052E312 /* VC6_2_Player.swift in Sources */,
+				7C53B729206C3C53004A1A48 /* swift+gif.swift in Sources */,
 				E35A6BC9205F302300D865F1 /* VC5_1.swift in Sources */,
 				E35A6BB2205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld in Sources */,
 				E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */,
+				7C53B72F206C5A5A004A1A48 /* VC11_4.swift in Sources */,
 				E3B9A96E2062CF960052E312 /* CoreDataFunctions.swift in Sources */,
 				7C0B2130206BB90500F083F9 /* VC11_2.swift in Sources */,
 				E3F7AEE52060096B00FBC190 /* VC6_1.swift in Sources */,
@@ -260,11 +289,13 @@
 				7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */,
 				7C0B2128206942C200F083F9 /* VC9_0_1.swift in Sources */,
 				E3B9A9702063BF090052E312 /* VC7_1.swift in Sources */,
+				7CAF33CC206E4E2A00D909E4 /* VC12_1.swift in Sources */,
 				E3F7AEEA20613B1000FBC190 /* songClass.swift in Sources */,
 				7C0B212A2069470000F083F9 /* VC9_0_2.swift in Sources */,
 				7C0B212E206BB25A00F083F9 /* VC11_1.swift in Sources */,
 				E35A6BBF205F2F0400D865F1 /* GlobalVariables.swift in Sources */,
 				E35A6BC1205F2F5E00D865F1 /* ExtensionForVC.swift in Sources */,
+				7C53B72D206C5A1A004A1A48 /* VC11_3.swift in Sources */,
 				E35A6BCF205F30BF00D865F1 /* VC5_4.swift in Sources */,
 				E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */,
 				7C0B212C20694B5900F083F9 /* VC9_0_3.swift in Sources */,
@@ -272,6 +303,7 @@
 				E35A6BC5205F2FAE00D865F1 /* VC5_5.swift in Sources */,
 				E35A6BCB205F305700D865F1 /* VC5_1_2.swift in Sources */,
 				E35A6BCD205F308D00D865F1 /* VC5_2.swift in Sources */,
+				7CAF33CA206E4BBF00D909E4 /* VC12.swift in Sources */,
 				E3B9A9722063C5640052E312 /* MyVCClass.swift in Sources */,
 				E35A6BD4205F387400D865F1 /* VC5_5_SecondView.swift in Sources */,
 				E3B9A96A20623A140052E312 /* VC6_2_Settings.swift in Sources */,

@@ -20,6 +20,8 @@ class InitViewController: UIViewController {
         }
         setAllGoToButtons()
         
+        isLoaded = false// это для VC11_3 костыль
+        
         
     }
     //я хотел сделать это чере extention но у меня не получилось, очевидно я забыл (не доразобрался) как правильно пользоваться геттером и сеттером

@@ -9,7 +9,8 @@
 import UIKit
 
 class VC11_1: MyVC {
-
+    var button : UIButton!
+    var label : UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 //        title = "First VC"
@@ -19,7 +20,8 @@ class VC11_1: MyVC {
         tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 0)
         self.tabBarItem = tabBarItem
         
-        let _ = ssButton(title: "Go", width: 30, height: 10, x: 50, y: 50)
+        button = ssButton(title: "Go", width: 30, height: 10, x: 50, y: 50)
+        label = ssLabel(text: "Label", width: 60, height: 10, x: 50, y: 85)
     }
 
     override func ffButton(sender: UIButton) {
@@ -36,6 +38,9 @@ class VC11_1: MyVC {
         
         window?.rootViewController = tabBarVC
         window?.makeKeyAndVisible()
+        
+        
+
     
 
 
