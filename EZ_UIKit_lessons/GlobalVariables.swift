@@ -67,6 +67,8 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "11 - 0", controller: VC11_1())
     _ = AllFirstControllersStruct(name: "11 - 3", controller: VC11_3())
     _ = AllFirstControllersStruct(name: "12", controller: VC12())
+    _ = AllFirstControllersStruct(name: "13 - 0", controller: VC13_0())
+    _ = AllFirstControllersStruct(name: "13 - 1", controller: VC13_1())
     isVCset = true
 }
 
