@@ -25,6 +25,9 @@
 		7CAF33CE2070FFE200D909E4 /* VC13_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF33CD2070FFE200D909E4 /* VC13_0.swift */; };
 		7CAF33D02071003500D909E4 /* VC13_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF33CF2071003500D909E4 /* VC13_1.swift */; };
 		7CAF33D22071004C00D909E4 /* VC13_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF33D12071004C00D909E4 /* VC13_2.swift */; };
+		7CAF33D4207163B000D909E4 /* VC13_0_Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF33D3207163B000D909E4 /* VC13_0_Second.swift */; };
+		7CAF33D620716B2C00D909E4 /* VC13_0_third.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF33D520716B2C00D909E4 /* VC13_0_third.swift */; };
+		7CAF33D82071700E00D909E4 /* VC14_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF33D72071700E00D909E4 /* VC14_0.swift */; };
 		E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */; };
 		E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BAB205F2E3A00D865F1 /* ViewController.swift */; };
 		E35A6BB2205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BB0205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld */; };
@@ -73,6 +76,9 @@
 		7CAF33CD2070FFE200D909E4 /* VC13_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC13_0.swift; sourceTree = "<group>"; };
 		7CAF33CF2071003500D909E4 /* VC13_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC13_1.swift; sourceTree = "<group>"; };
 		7CAF33D12071004C00D909E4 /* VC13_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC13_2.swift; sourceTree = "<group>"; };
+		7CAF33D3207163B000D909E4 /* VC13_0_Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC13_0_Second.swift; sourceTree = "<group>"; };
+		7CAF33D520716B2C00D909E4 /* VC13_0_third.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC13_0_third.swift; sourceTree = "<group>"; };
+		7CAF33D72071700E00D909E4 /* VC14_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC14_0.swift; sourceTree = "<group>"; };
 		E35A6BA6205F2E3A00D865F1 /* EZ_UIKit_lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZ_UIKit_lessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35A6BAB205F2E3A00D865F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -192,8 +198,11 @@
 				7CAF33C9206E4BBF00D909E4 /* VC12.swift */,
 				7CAF33CB206E4E2A00D909E4 /* VC12_1.swift */,
 				7CAF33CD2070FFE200D909E4 /* VC13_0.swift */,
+				7CAF33D3207163B000D909E4 /* VC13_0_Second.swift */,
+				7CAF33D520716B2C00D909E4 /* VC13_0_third.swift */,
 				7CAF33CF2071003500D909E4 /* VC13_1.swift */,
 				7CAF33D12071004C00D909E4 /* VC13_2.swift */,
+				7CAF33D72071700E00D909E4 /* VC14_0.swift */,
 			);
 			path = arhiveVCs;
 			sourceTree = "<group>";
@@ -298,6 +307,7 @@
 				7CAF33D22071004C00D909E4 /* VC13_2.swift in Sources */,
 				E35A6BD1205F30EA00D865F1 /* VC5_4_SecondView.swift in Sources */,
 				7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */,
+				7CAF33D82071700E00D909E4 /* VC14_0.swift in Sources */,
 				7C0B2128206942C200F083F9 /* VC9_0_1.swift in Sources */,
 				E3B9A9702063BF090052E312 /* VC7_1.swift in Sources */,
 				7CAF33CC206E4E2A00D909E4 /* VC12_1.swift in Sources */,
@@ -317,7 +327,9 @@
 				E35A6BCD205F308D00D865F1 /* VC5_2.swift in Sources */,
 				7CAF33CA206E4BBF00D909E4 /* VC12.swift in Sources */,
 				E3B9A9722063C5640052E312 /* MyVCClass.swift in Sources */,
+				7CAF33D620716B2C00D909E4 /* VC13_0_third.swift in Sources */,
 				E35A6BD4205F387400D865F1 /* VC5_5_SecondView.swift in Sources */,
+				7CAF33D4207163B000D909E4 /* VC13_0_Second.swift in Sources */,
 				E3B9A96A20623A140052E312 /* VC6_2_Settings.swift in Sources */,
 				7C2F875C20666D60004D395E /* VC8_1.swift in Sources */,
 			);
