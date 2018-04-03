@@ -21,8 +21,12 @@ var currentTextField : UITextField!
 var currentSegmentedControl : UISegmentedControl!
 var currentImageView : UIImageView!
 var currentTextView : UITextView!
-
+var currentScrollView : UIScrollView!
 var currentSlider : UISlider!
+
+
+var canUseNotification = false
+
 var opsButton : UIButton!
 var isButtonAvailable = false
 var newLabel : UILabel!
@@ -70,6 +74,8 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "13 - 0", controller: VC13_0())
     _ = AllFirstControllersStruct(name: "13 - 1", controller: VC13_1())
     _ = AllFirstControllersStruct(name: "14 - 0", controller: VC14_0())
+    _ = AllFirstControllersStruct(name: "14 - 1", controller: VC14_1())
+    _ = AllFirstControllersStruct(name: "15 - 1", controller: VC15_1())
     isVCset = true
 }
 

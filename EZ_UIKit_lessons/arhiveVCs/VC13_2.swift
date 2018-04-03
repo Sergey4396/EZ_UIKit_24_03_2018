@@ -70,7 +70,6 @@ createButton = ssButton(title: "ОУ, да я теперь программис�
             
         }
         
-        
         if sender.titleLabel?.text == "+100"{
             for _ in 0...99{
             let x = CGFloat(Int(arc4random_uniform(1000000)) % 80)

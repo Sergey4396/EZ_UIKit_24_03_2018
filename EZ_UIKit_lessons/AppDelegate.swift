@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         //🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴 заполняем эту функцию для приложения без стройборда{
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = InitViewController()
+        window?.rootViewController = InitViewController()//ViewControllerForScroll()
         window?.makeKeyAndVisible()
         
         //🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵}

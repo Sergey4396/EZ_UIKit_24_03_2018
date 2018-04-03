@@ -9,10 +9,13 @@
 import UIKit
 
 class MyVC: UIViewController, UITextFieldDelegate {
-
+    //reusable mainView
+    var currentMainView : UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         firstFuncForVC()
+        currentMainView = view
 
 
     }
@@ -33,7 +36,7 @@ class MyVC: UIViewController, UITextFieldDelegate {
         currentLabel.bounds = CGRect(x: 0, y: 0, width: w * width / 100, height: h * height / 100)
         currentLabel.center = CGPoint(x: w * x / 100, y: h * y / 100)
         currentLabel.textColor = textColor
-        view.addSubview(currentLabel)
+        currentMainView.addSubview(currentLabel)
         return currentLabel
     }
     func ssTextField(placeholder: String, y: CGFloat, x : CGFloat = 50, width: CGFloat = 90, height: CGFloat = 8, bacgroundColor : UIColor = .orange ) -> UITextField{
@@ -51,7 +54,7 @@ class MyVC: UIViewController, UITextFieldDelegate {
         
         currentTextField.textColor = .darkGray
         currentTextField.delegate = self
-        view.addSubview(currentTextField)
+        currentMainView.addSubview(currentTextField)
         return currentTextField
     }
     
@@ -70,7 +73,7 @@ class MyVC: UIViewController, UITextFieldDelegate {
         
         currentTextView.textColor = textColor
 
-        view.addSubview(currentTextView)
+        currentMainView.addSubview(currentTextView)
         return currentTextView
     }
     
@@ -84,7 +87,7 @@ class MyVC: UIViewController, UITextFieldDelegate {
         currentImageView.center = CGPoint(x: w * x / 100, y: h * y / 100)
         currentImageView.contentMode = .scaleAspectFit
 
-        view.addSubview(currentImageView)
+        currentMainView.addSubview(currentImageView)
         return currentImageView
     }
     
@@ -99,7 +102,7 @@ class MyVC: UIViewController, UITextFieldDelegate {
         currentButton.setTitleColor(titleColor, for: .normal)
         currentButton.titleLabel?.adjustsFontSizeToFitWidth = true
         currentButton.addTarget(self, action: #selector(ffButton(sender:)), for: UIControlEvents.touchUpInside)
-        view.addSubview(currentButton)
+        currentMainView.addSubview(currentButton)
         return currentButton
     }
     @objc func ffButton(sender: UIButton) -> Void {
@@ -123,7 +126,7 @@ print("here just do nothing")
         currentSlider.maximumValue = 1.0
         currentSlider.addTarget(self, action: #selector(ffSlider(sender:)), for: .valueChanged)
  
-        view.addSubview(currentSlider)
+        currentMainView.addSubview(currentSlider)
         return currentSlider
         
     }
@@ -141,7 +144,7 @@ print("here just do nothing")
         currentSegmentedControl = UISegmentedControl(items: items)
         currentSegmentedControl.addTarget(self, action: #selector(ffSegmentedControl(sender:)), for: .valueChanged)
         
-        view.addSubview(currentSegmentedControl)
+        currentMainView.addSubview(currentSegmentedControl)
         
         //если границы вызвать до view.addSubview(currentSegmentedControl), то не работает
 
@@ -154,6 +157,26 @@ print("here just do nothing")
 
     }
     
+    func ssSwitch(x: CGFloat, y: CGFloat, tag: Int = 0) -> UISwitch{
+        currentSwitch = UISwitch()
+        currentSwitch.addTarget(self, action: #selector(ffChangeSwitchValue(paramTarget:)), for: .valueChanged)
+//        currentSwitch.frame = CGRect(x: view.bounds.width * 0.8, y: view.bounds.height * 0.2, width: 0, height: 0)
+        currentSwitch.center = CGPoint(x: w * x / 100, y: h * y / 100)
+        currentSwitch.tag = tag
+
+        currentMainView.addSubview(currentSwitch)
+        return currentSwitch
+    }
+    @objc func ffChangeSwitchValue(paramTarget:UISwitch){
+        if paramTarget.isOn{
+            print("On")
+        }
+        else{
+            print("Off")
+        }
+    }
+
+    
     
     
     func ssPickerView(width: CGFloat, height: CGFloat, x: CGFloat, y: CGFloat) -> UIPickerView{
@@ -163,10 +186,44 @@ print("here just do nothing")
         currentPickerView.delegate = self
         currentPickerView.bounds = CGRect(x: 0, y: 0, width: w * width / 100, height: h * height / 100)
         currentPickerView.center = CGPoint(x: w * x / 100, y: h * y / 100)
-        view.addSubview(currentPickerView)
+        currentMainView.addSubview(currentPickerView)
         
         return currentPickerView
      
+    }
+    
+    func ssScrolView(height: CGFloat = 200, x: CGFloat = 50){
+        currentScrollView = UIScrollView(frame: view.bounds)
+       print("🅰️")
+        print(view.bounds)
+        currentScrollView.contentSize = CGSize(width: w, height: h * 2)
+ //      currentScrollView.bounds = CGRect(x: 0, y: 0, width: w, height: h * 2)
+//        currentScrollView.center = CGPoint(x: w * x / 100, y: h * height / 200)
+        currentMainView.addSubview(currentScrollView)
+        //change main View
+//        currentScrollView.scrollRectToVisible(CGRect(x: w50, y: h40, width: w, height: h), animated: true)
+       currentMainView = currentScrollView
+     
+        
+    }
+    
+    func addNotificationForMoovingTEXTFIELDWithKeybard(height: CGFloat){
+        
+  
+            
+            NotificationCenter.default.addObserver(forName: NSNotification.Name.UIKeyboardWillShow, object: nil, queue: nil) { (nc) in
+               //это двигает фрейм, а нам бы проскролить
+                // self.currentMainView.frame.origin.y = h40 - height
+                if canUseNotification{
+                currentScrollView.scrollRectToVisible(CGRect(x: w50, y: height - h30, width: w, height: h), animated: true)
+                }
+            }
+            NotificationCenter.default.addObserver(forName: NSNotification.Name.UIKeyboardWillHide, object: nil, queue: nil) { (nc) in
+           //     self.currentMainView.frame.origin.y = 0.0
+                currentScrollView.scrollRectToVisible(CGRect(x: w50, y: 0.0, width: w, height: h), animated: true)
+            }
+    
+        
     }
     
 
