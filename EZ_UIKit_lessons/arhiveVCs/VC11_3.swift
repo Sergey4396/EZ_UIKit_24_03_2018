@@ -68,7 +68,7 @@ class VC11_3: MyVC {
 
         }
 
-         imageView = ssImageView(image: "junior", y: 40, width: 100, height: w100)
+        imageView = ssImageView(image: "junior", y: 40, width: 100, height: w100)
          label = ssLabel(text: "Шаг 0", width: 30, height: 6, x: 25, y: 15, backgroundColor: .black, textColor: .orange)
 
         textView = ssTextView(text: "Лорен ипсум де ланар", y: 72, height: 20, backgroundColor: .clear)

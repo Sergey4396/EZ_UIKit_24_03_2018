@@ -77,7 +77,7 @@ class MyVC: UIViewController, UITextFieldDelegate {
         return currentTextView
     }
     
-    func ssImageView(image: String, y: CGFloat, x : CGFloat = 50, width: CGFloat, height: CGFloat) -> UIImageView{
+    func ssImageView(image: String, y: CGFloat, x : CGFloat = 50, width: CGFloat, height: CGFloat, tag : Int = 0) -> UIImageView{
         
         currentImageView = UIImageView()
         
@@ -86,10 +86,28 @@ class MyVC: UIViewController, UITextFieldDelegate {
         currentImageView.bounds = CGRect(x: 0, y: 0, width: w * width / 100, height: h * height / 100)
         currentImageView.center = CGPoint(x: w * x / 100, y: h * y / 100)
         currentImageView.contentMode = .scaleAspectFit
-
+        currentImageView.tag = tag
         currentMainView.addSubview(currentImageView)
         return currentImageView
     }
+    
+    func ssImageViewWithRecognizer(image: String, y: CGFloat, x : CGFloat = 50, width: CGFloat, height: CGFloat, tapGestureRecognizer: UITapGestureRecognizer?, tag : Int = 0) -> UIImageView{
+        
+        currentImageView = UIImageView()
+        
+        let image = UIImage(named: image)
+        currentImageView.image = image
+        currentImageView.bounds = CGRect(x: 0, y: 0, width: w * width / 100, height: h * height / 100)
+        currentImageView.center = CGPoint(x: w * x / 100, y: h * y / 100)
+        currentImageView.contentMode = .scaleAspectFit
+        currentImageView.tag = tag
+        if let x = tapGestureRecognizer{
+            currentImageView.addGestureRecognizer(x)
+        }
+        currentMainView.addSubview(currentImageView)
+        return currentImageView
+    }
+    
     
     func ssButton(title: String, width: CGFloat, height: CGFloat, x: CGFloat, y: CGFloat, fun: String = "", backgroundColor: UIColor = .orange, titleColor: UIColor = .black ) -> UIButton{
         
