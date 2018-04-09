@@ -8,13 +8,19 @@
 
 import UIKit
 
-class InitViewController: UIViewController {
+class InitViewController: MyVC {
     var buttonToGo : UIButton!
     var currentButtonToGoTo : ButtonToGoToVC!
+    var scrollView : UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         //setGoToViewControllerButton(buttonName:"new", vcToGo: VC1(), x: 100,y:100)
+        ssScrolView()
+        
+        
+        
         if !isVCset {
             setVCNamesForAllLessons()
         }
@@ -50,7 +56,7 @@ class InitViewController: UIViewController {
         currentButtonToGoTo.titleLabel?.adjustsFontSizeToFitWidth = true
         currentButtonToGoTo.addTarget(self, action: #selector(InitViewController.buttonPressed(sender:)), for: UIControlEvents.touchUpInside)
         buttonToGo = currentButtonToGoTo
-        view.addSubview(buttonToGo)
+        currentMainView.addSubview(buttonToGo)
     }
     @objc func buttonPressed(sender: ButtonToGoToVC){
         print("button pressed")

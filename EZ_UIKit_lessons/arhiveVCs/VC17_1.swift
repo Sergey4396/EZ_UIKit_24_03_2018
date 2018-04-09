@@ -39,11 +39,16 @@ class VC17_1: MyVC, UINavigationControllerDelegate, UIImagePickerControllerDeleg
     
 
     
-    func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo:  [NSObject: AnyObject]!){
-        self.dismiss(animated: true, completion: { () -> Void in
-            
-        })
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+//        self.dismiss(animated: true, completion: { () -> Void in
+//
+//        })
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        print("🅰️")
         print(image)
         imageView.image = image
+        dismiss(animated: true, completion: nil)
     }
+
+    
 }

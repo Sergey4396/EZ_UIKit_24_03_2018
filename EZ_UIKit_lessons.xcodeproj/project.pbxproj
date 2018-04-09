@@ -34,7 +34,11 @@
 		7CAF34012074E34200D909E4 /* VC16_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF34002074E34100D909E4 /* VC16_test.swift */; };
 		7CAF34032074E35400D909E4 /* VC16_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF34022074E35400D909E4 /* VC16_2.swift */; };
 		7CAF340520763C3400D909E4 /* VC16_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF340420763C3400D909E4 /* VC16_1.swift */; };
+		7CCCA60A207B656800549D42 /* VC17_0_second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCA609207B656800549D42 /* VC17_0_second.swift */; };
+		7CCCA60C207B727C00549D42 /* VC17_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCA60B207B727C00549D42 /* VC17_2.swift */; };
+		7CCCA60E207B74A200549D42 /* VC17_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCA60D207B74A200549D42 /* VC17_3.swift */; };
 		7CDD99EB207967E80032C041 /* VC17_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD99EA207967E80032C041 /* VC17_1.swift */; };
+		7CDD99ED207B58ED0032C041 /* VC17_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD99EC207B58ED0032C041 /* VC17_0.swift */; };
 		E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */; };
 		E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BAB205F2E3A00D865F1 /* ViewController.swift */; };
 		E35A6BB2205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BB0205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld */; };
@@ -92,7 +96,11 @@
 		7CAF34002074E34100D909E4 /* VC16_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC16_test.swift; sourceTree = "<group>"; };
 		7CAF34022074E35400D909E4 /* VC16_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC16_2.swift; sourceTree = "<group>"; };
 		7CAF340420763C3400D909E4 /* VC16_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC16_1.swift; sourceTree = "<group>"; };
+		7CCCA609207B656800549D42 /* VC17_0_second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC17_0_second.swift; sourceTree = "<group>"; };
+		7CCCA60B207B727C00549D42 /* VC17_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC17_2.swift; sourceTree = "<group>"; };
+		7CCCA60D207B74A200549D42 /* VC17_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC17_3.swift; sourceTree = "<group>"; };
 		7CDD99EA207967E80032C041 /* VC17_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC17_1.swift; sourceTree = "<group>"; };
+		7CDD99EC207B58ED0032C041 /* VC17_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC17_0.swift; sourceTree = "<group>"; };
 		E35A6BA6205F2E3A00D865F1 /* EZ_UIKit_lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZ_UIKit_lessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35A6BAB205F2E3A00D865F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -223,7 +231,11 @@
 				7CAF34002074E34100D909E4 /* VC16_test.swift */,
 				7CAF340420763C3400D909E4 /* VC16_1.swift */,
 				7CAF34022074E35400D909E4 /* VC16_2.swift */,
+				7CDD99EC207B58ED0032C041 /* VC17_0.swift */,
+				7CCCA609207B656800549D42 /* VC17_0_second.swift */,
 				7CDD99EA207967E80032C041 /* VC17_1.swift */,
+				7CCCA60B207B727C00549D42 /* VC17_2.swift */,
+				7CCCA60D207B74A200549D42 /* VC17_3.swift */,
 			);
 			path = arhiveVCs;
 			sourceTree = "<group>";
@@ -326,16 +338,19 @@
 				7C53B72F206C5A5A004A1A48 /* VC11_4.swift in Sources */,
 				E3B9A96E2062CF960052E312 /* CoreDataFunctions.swift in Sources */,
 				7C0B2130206BB90500F083F9 /* VC11_2.swift in Sources */,
+				7CCCA60E207B74A200549D42 /* VC17_3.swift in Sources */,
 				E3F7AEE52060096B00FBC190 /* VC6_1.swift in Sources */,
 				7CAF34032074E35400D909E4 /* VC16_2.swift in Sources */,
 				7CAF33DC20727AAB00D909E4 /* ViewControllerForScroll.swift in Sources */,
 				E35A6BC3205F2F8300D865F1 /* InitViewController.swift in Sources */,
 				7CAF33D22071004C00D909E4 /* VC13_2.swift in Sources */,
+				7CCCA60A207B656800549D42 /* VC17_0_second.swift in Sources */,
 				E35A6BD1205F30EA00D865F1 /* VC5_4_SecondView.swift in Sources */,
 				7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */,
 				7CAF33D82071700E00D909E4 /* VC14_0.swift in Sources */,
 				7C0B2128206942C200F083F9 /* VC9_0_1.swift in Sources */,
 				E3B9A9702063BF090052E312 /* VC7_1.swift in Sources */,
+				7CCCA60C207B727C00549D42 /* VC17_2.swift in Sources */,
 				7CAF33CC206E4E2A00D909E4 /* VC12_1.swift in Sources */,
 				E3F7AEEA20613B1000FBC190 /* songClass.swift in Sources */,
 				7C0B212A2069470000F083F9 /* VC9_0_2.swift in Sources */,
@@ -353,6 +368,7 @@
 				E35A6BCD205F308D00D865F1 /* VC5_2.swift in Sources */,
 				7CAF33CA206E4BBF00D909E4 /* VC12.swift in Sources */,
 				7CDD99EB207967E80032C041 /* VC17_1.swift in Sources */,
+				7CDD99ED207B58ED0032C041 /* VC17_0.swift in Sources */,
 				E3B9A9722063C5640052E312 /* MyVCClass.swift in Sources */,
 				7CAF33FF2072BA2C00D909E4 /* VC15_1.swift in Sources */,
 				7CAF33D620716B2C00D909E4 /* VC13_0_third.swift in Sources */,
