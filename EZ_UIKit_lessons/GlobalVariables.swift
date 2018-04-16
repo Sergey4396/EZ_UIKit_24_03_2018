@@ -82,7 +82,12 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "17 - 1", controller: VC17_1())
     _ = AllFirstControllersStruct(name: "17 - 2", controller: VC17_2())
     _ = AllFirstControllersStruct(name: "17 - 3", controller: VC17_3())
-    
+    _ = AllFirstControllersStruct(name: "18 - 0", controller: VC18_0())
+    _ = AllFirstControllersStruct(name: "18 - 0_UI", controller: VC18_0_UI())
+    _ = AllFirstControllersStruct(name: "18 - 0_PDF", controller: VC18_0_PDF())
+    _ = AllFirstControllersStruct(name: "VC18_0_SFSafari", controller: VC18_0_SFSafari())
+    _ = AllFirstControllersStruct(name: "VC19_0", controller: VC19_0())
+    _ = AllFirstControllersStruct(name: "VC19_1", controller: VC19_1())
     isVCset = true
 }
 

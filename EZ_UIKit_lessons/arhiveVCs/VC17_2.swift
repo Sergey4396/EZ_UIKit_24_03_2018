@@ -20,9 +20,7 @@ class VC17_2: MyVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         ssScrolView()
-        
-        
-        
+     
         currentMainView.backgroundColor = .lightGray
 
         textField1 = ssTextField(placeholder: "первое поле", y: 10)
@@ -32,13 +30,8 @@ class VC17_2: MyVC {
         textField5 = ssTextField(placeholder: "5 поле", y: 70)
         textField6 = ssTextField(placeholder: "6 поле", y: 85)
         textField7 = ssTextField(placeholder: "7 поле", y: 100)
+}
 
-        
-    }
-    
-    
-
-    
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool{
         print("textFieldShouldBeginEditing - можно ли редактировать true - можно, false - нельзя")
         canUseNotification = false
@@ -87,8 +80,7 @@ class VC17_2: MyVC {
             textField.resignFirstResponder()// убирает клавиатуру, убирает внимание с текстфилда
             return true
         }
-    }
-    
+    }    
 }
 
 

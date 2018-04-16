@@ -28,7 +28,7 @@ class InitViewController: MyVC {
         
         isLoaded = false// это для VC11_3 костыль
         
-        
+        (currentMainView as! UIScrollView).scrollRectToVisible(CGRect(x: w50, y: h80, width: w, height: h), animated: true)
     }
     //я хотел сделать это чере extention но у меня не получилось, очевидно я забыл (не доразобрался) как правильно пользоваться геттером и сеттером
     class ButtonToGoToVC: UIButton{

@@ -32,9 +32,23 @@ firstFuncForVC()
 //        }
         do {
             try player = AVAudioPlayer(contentsOf: songList[currentSong].url!)
+            
+           //🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻// this allows to play music in backgrownd
+            player.prepareToPlay()
+            let audioSession = AVAudioSession.sharedInstance()
+            do{
+                try audioSession.setCategory(AVAudioSessionCategoryPlayback)
+            }
+            catch{
+                print("problems with session")
+            }
+            //🔹🔹🔹🔹🔹🔹🔹🔹🔹}
+            
         } catch {
             print("Can't set the next song")
         }
+
+
 
         setPlayButton()
         setPauseButton()
@@ -71,6 +85,7 @@ firstFuncForVC()
     @objc func playButtonPressed(sender: UIButton){
         if isPlaying{
         self.player.pause()
+    
          isPlaying = false
         }
         else{
