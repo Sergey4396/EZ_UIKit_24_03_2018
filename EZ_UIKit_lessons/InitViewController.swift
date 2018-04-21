@@ -42,7 +42,8 @@ class InitViewController: MyVC {
         for n in 0...AllFirstControllersStruct.allFirstControllersDictsArray.count -  1{
             setGoToViewControllerButton(buttonName: AllFirstControllersStruct.allFirstControllersDictsArray[n].name, vcToGo: AllFirstControllersStruct.allFirstControllersDictsArray[n].controller, x: x, y: y)
             x = CGFloat(view.bounds.width * 0.1) + CGFloat(((n + 1) % 3)) * (view.bounds.width * 0.3)
-            y = CGFloat(view.bounds.height * 0.1) + CGFloat((n + 1) / 3) * CGFloat(view.bounds.width * 0.2)
+            y = CGFloat(view.bounds.height * 0.1) + CGFloat((n + 1) / 3) * CGFloat(view.bounds.height * 0.12)
+ //           y = CGFloat(view.bounds.height * 0.1) + CGFloat((n + 1) / 3) * CGFloat(view.bounds.width * 0.2)
         }
     }
     
