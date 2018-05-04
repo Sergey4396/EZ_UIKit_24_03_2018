@@ -30,7 +30,7 @@ class VC17_1: MyVC, UINavigationControllerDelegate, UIImagePickerControllerDeleg
             print("Button capture")
             
             imagePicker.delegate = self
-            imagePicker.sourceType = .savedPhotosAlbum;
+            imagePicker.sourceType = .camera//savedPhotosAlbum;
             imagePicker.allowsEditing = false
             
             self.present(imagePicker, animated: true, completion: nil)

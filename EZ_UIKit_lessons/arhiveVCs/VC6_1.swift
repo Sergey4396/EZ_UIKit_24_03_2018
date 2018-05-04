@@ -50,6 +50,9 @@ firstFuncForVC()
 
 
 
+
+
+
         setPlayButton()
         setPauseButton()
         setSlider()
@@ -133,6 +136,10 @@ firstFuncForVC()
             let minutes = Int(player.currentTime) / 60
             let seconds = Int(player.currentTime) % 60
             timeLabel.text = "min: \(minutes) sec: \(seconds)"
+//            if sender.value == 0 && !player.is{
+//                nextSong()
+//                player.play()
+//            }
         }
     }
     
@@ -210,6 +217,10 @@ firstFuncForVC()
         let minutes = Int(player.currentTime) / 60
         let seconds = Int(player.currentTime) % 60
         timeLabel.text = "min: \(minutes) sec: \(seconds)"
+        
+        if !player.isPlaying && isPlaying{
+            nextSong()
+        }
     }
     
   
@@ -228,22 +239,24 @@ firstFuncForVC()
         return currentButton
     }
 
-
+    func nextSong(){
+        currentSong += 1
+        if currentSong >= songList.count{
+            currentSong = 0
+        }
+        do {
+            try player = AVAudioPlayer(contentsOf: songList[currentSong].url!)
+        } catch {
+            print("Can't set the next song")
+        }
+        player.play()
+        titleLabel.text = String(describing: songList[currentSong].url!)
+    }
     
     @objc func sharedButtonsFunc(sender: UIButton) -> Void {
         print(sender.titleLabel?.text ?? "no title")
         if sender.titleLabel?.text == "Forvard"{
-            currentSong += 1
-            if currentSong >= songList.count{
-            currentSong = 0
-            }
-            do {
-                try player = AVAudioPlayer(contentsOf: songList[currentSong].url!)
-            } catch {
-                print("Can't set the next song")
-            }
-            player.play()
-            titleLabel.text = String(describing: songList[currentSong].url!)
+            nextSong()
         }
         if sender.titleLabel?.text == "Back"{
             currentSong -= 1
@@ -272,6 +285,8 @@ firstFuncForVC()
         }
         
     }
+
+   
 
 }
 

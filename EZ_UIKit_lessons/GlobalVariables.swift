@@ -92,6 +92,31 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "VC21_0", controller: VC21_0())
     _ = AllFirstControllersStruct(name: "VC21_01", controller: VC21_01())
     _ = AllFirstControllersStruct(name: "VC21_02", controller: VC21_02())
+    _ = AllFirstControllersStruct(name: "Take_Foto", controller: VC21___Take_Foto())
+    _ = AllFirstControllersStruct(name: "Patterns", controller: PatternsVC())
+    
     isVCset = true
+}
+
+
+
+struct AllPatternsControllersStruct{
+    static var allFirstControllersDictsArray : [AllPatternsControllersStruct] = []
+    var name : String
+    var controller : UIViewController
+    init(name:String, controller: UIViewController) {
+        self.name = name
+        self.controller = controller
+        AllPatternsControllersStruct.allFirstControllersDictsArray.append(self)
+    }
+}
+var isPatternsVCset = false
+func setVCNamesForAllPatterns(){
+    _ = AllPatternsControllersStruct(name: "observer", controller: ObserverVC())
+    _ = AllPatternsControllersStruct(name: "prototype", controller: PrototypeVC())
+    _ = AllPatternsControllersStruct(name: "strategy", controller: StrategyVC())
+    _ = AllPatternsControllersStruct(name: "decorator", controller: DecoratorVC())
+    
+    isPatternsVCset = true
 }
 
