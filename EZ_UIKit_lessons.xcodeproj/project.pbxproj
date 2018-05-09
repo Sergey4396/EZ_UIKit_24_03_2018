@@ -20,12 +20,15 @@
 		7C28C39A2098C3AE009C7069 /* DecoratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28C3992098C3AE009C7069 /* DecoratorVC.swift */; };
 		7C2ABDE1208E508A00F5D38B /* VC21??_Take_Foto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2ABDE0208E508A00F5D38B /* VC21??_Take_Foto.swift */; };
 		7C2F875C20666D60004D395E /* VC8_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2F875B20666D60004D395E /* VC8_1.swift */; };
+		7C356A8420A2F82E000C7BF3 /* AbstractFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A8320A2F82E000C7BF3 /* AbstractFactoryVC.swift */; };
 		7C53B729206C3C53004A1A48 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B728206C3C53004A1A48 /* swift+gif.swift */; };
 		7C53B72B206C400A004A1A48 /* homer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C53B72A206C4009004A1A48 /* homer.gif */; };
 		7C53B72D206C5A1A004A1A48 /* VC11_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B72C206C5A1A004A1A48 /* VC11_3.swift */; };
 		7C53B72F206C5A5A004A1A48 /* VC11_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B72E206C5A5A004A1A48 /* VC11_4.swift */; };
 		7C53B731206DC24C004A1A48 /* you can.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C53B730206DC24B004A1A48 /* you can.gif */; };
 		7C53B733206DC598004A1A48 /* mad fry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C53B732206DC598004A1A48 /* mad fry.gif */; };
+		7C68AE6120A1CCA20081E777 /* SimpleFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C68AE6020A1CCA20081E777 /* SimpleFactoryVC.swift */; };
+		7C68AE6320A1D1F20081E777 /* FactoryMethotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C68AE6220A1D1F20081E777 /* FactoryMethotVC.swift */; };
 		7C697AC32087907600B9B562 /* VC20_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C697AC22087907600B9B562 /* VC20_0.swift */; };
 		7C697AC52087927900B9B562 /* VC20_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C697AC42087927900B9B562 /* VC20_1.swift */; };
 		7C697AC7208793E200B9B562 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C697AC6208793E200B9B562 /* MyPageViewController.swift */; };
@@ -106,12 +109,15 @@
 		7C28C3992098C3AE009C7069 /* DecoratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorVC.swift; sourceTree = "<group>"; };
 		7C2ABDE0208E508A00F5D38B /* VC21??_Take_Foto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC21??_Take_Foto.swift"; sourceTree = "<group>"; };
 		7C2F875B20666D60004D395E /* VC8_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC8_1.swift; sourceTree = "<group>"; };
+		7C356A8320A2F82E000C7BF3 /* AbstractFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryVC.swift; sourceTree = "<group>"; };
 		7C53B728206C3C53004A1A48 /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
 		7C53B72A206C4009004A1A48 /* homer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = homer.gif; sourceTree = "<group>"; };
 		7C53B72C206C5A1A004A1A48 /* VC11_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_3.swift; sourceTree = "<group>"; };
 		7C53B72E206C5A5A004A1A48 /* VC11_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_4.swift; sourceTree = "<group>"; };
 		7C53B730206DC24B004A1A48 /* you can.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "you can.gif"; sourceTree = "<group>"; };
 		7C53B732206DC598004A1A48 /* mad fry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "mad fry.gif"; sourceTree = "<group>"; };
+		7C68AE6020A1CCA20081E777 /* SimpleFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactoryVC.swift; sourceTree = "<group>"; };
+		7C68AE6220A1D1F20081E777 /* FactoryMethotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethotVC.swift; sourceTree = "<group>"; };
 		7C697AC22087907600B9B562 /* VC20_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC20_0.swift; sourceTree = "<group>"; };
 		7C697AC42087927900B9B562 /* VC20_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC20_1.swift; sourceTree = "<group>"; };
 		7C697AC6208793E200B9B562 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
@@ -202,6 +208,9 @@
 				7C28C3952097BA23009C7069 /* PrototypeVC.swift */,
 				7C28C3972098BA86009C7069 /* StrategyVC.swift */,
 				7C28C3992098C3AE009C7069 /* DecoratorVC.swift */,
+				7C68AE6020A1CCA20081E777 /* SimpleFactoryVC.swift */,
+				7C68AE6220A1D1F20081E777 /* FactoryMethotVC.swift */,
+				7C356A8320A2F82E000C7BF3 /* AbstractFactoryVC.swift */,
 			);
 			name = Patterns;
 			sourceTree = "<group>";
@@ -458,8 +467,10 @@
 				7C28C39A2098C3AE009C7069 /* DecoratorVC.swift in Sources */,
 				E3F7AEEA20613B1000FBC190 /* songClass.swift in Sources */,
 				7C0B212A2069470000F083F9 /* VC9_0_2.swift in Sources */,
+				7C68AE6320A1D1F20081E777 /* FactoryMethotVC.swift in Sources */,
 				7C0B212E206BB25A00F083F9 /* VC11_1.swift in Sources */,
 				E35A6BBF205F2F0400D865F1 /* GlobalVariables.swift in Sources */,
+				7C356A8420A2F82E000C7BF3 /* AbstractFactoryVC.swift in Sources */,
 				E35A6BC1205F2F5E00D865F1 /* ExtensionForVC.swift in Sources */,
 				7C53B72D206C5A1A004A1A48 /* VC11_3.swift in Sources */,
 				7CAF33CE2070FFE200D909E4 /* VC13_0.swift in Sources */,
@@ -477,6 +488,7 @@
 				7CAF33CA206E4BBF00D909E4 /* VC12.swift in Sources */,
 				7CDD99EB207967E80032C041 /* VC17_1.swift in Sources */,
 				7CDD99ED207B58ED0032C041 /* VC17_0.swift in Sources */,
+				7C68AE6120A1CCA20081E777 /* SimpleFactoryVC.swift in Sources */,
 				E3B9A9722063C5640052E312 /* MyVCClass.swift in Sources */,
 				7CAF33FF2072BA2C00D909E4 /* VC15_1.swift in Sources */,
 				7CAF33D620716B2C00D909E4 /* VC13_0_third.swift in Sources */,

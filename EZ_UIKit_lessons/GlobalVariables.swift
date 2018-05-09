@@ -116,7 +116,12 @@ func setVCNamesForAllPatterns(){
     _ = AllPatternsControllersStruct(name: "prototype", controller: PrototypeVC())
     _ = AllPatternsControllersStruct(name: "strategy", controller: StrategyVC())
     _ = AllPatternsControllersStruct(name: "decorator", controller: DecoratorVC())
+    _ = AllPatternsControllersStruct(name: "Simple Factory", controller: SimpleFactoryVC())
+    _ = AllPatternsControllersStruct(name: "Factory Methot", controller: FactoryMethotVC())
+    _ = AllPatternsControllersStruct(name: "Abstract Factory", controller: AbstractFactoryVC())
+
     
+
     isPatternsVCset = true
 }
 
