@@ -92,7 +92,16 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "VC21_0", controller: VC21_0())
     _ = AllFirstControllersStruct(name: "VC21_01", controller: VC21_01())
     _ = AllFirstControllersStruct(name: "VC21_02", controller: VC21_02())
+    _ = AllFirstControllersStruct(name: "VC21_1", controller: VC21_1())
     _ = AllFirstControllersStruct(name: "Take_Foto", controller: VC21___Take_Foto())
+    _ = AllFirstControllersStruct(name: "VC22_0", controller: VC22_0())
+    _ = AllFirstControllersStruct(name: "VC22_01", controller: VC22_01())
+    _ = AllFirstControllersStruct(name: "VC22_1", controller: VC22_1())
+    _ = AllFirstControllersStruct(name: "VC22_11", controller: VC22_11())
+    _ = AllFirstControllersStruct(name: "VC22_12", controller: VC22_12())
+    _ = AllFirstControllersStruct(name: "VC22_13", controller: VC22_13())
+    _ = AllFirstControllersStruct(name: "VC22_14", controller: VC22_14())
+    _ = AllFirstControllersStruct(name: "VC22_15", controller: VC22_15())
     _ = AllFirstControllersStruct(name: "Patterns", controller: PatternsVC())
     
     isVCset = true

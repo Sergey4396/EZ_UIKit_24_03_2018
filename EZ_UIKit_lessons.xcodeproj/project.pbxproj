@@ -21,6 +21,15 @@
 		7C2ABDE1208E508A00F5D38B /* VC21??_Take_Foto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2ABDE0208E508A00F5D38B /* VC21??_Take_Foto.swift */; };
 		7C2F875C20666D60004D395E /* VC8_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2F875B20666D60004D395E /* VC8_1.swift */; };
 		7C356A8420A2F82E000C7BF3 /* AbstractFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A8320A2F82E000C7BF3 /* AbstractFactoryVC.swift */; };
+		7C356A8620A47069000C7BF3 /* VC21_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A8520A47069000C7BF3 /* VC21_1.swift */; };
+		7C356A8820A5A161000C7BF3 /* VC22_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A8720A5A160000C7BF3 /* VC22_0.swift */; };
+		7C356A8A20A5A88A000C7BF3 /* VC22_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A8920A5A88A000C7BF3 /* VC22_01.swift */; };
+		7C356A8C20A5DFAA000C7BF3 /* VC22_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A8B20A5DFAA000C7BF3 /* VC22_1.swift */; };
+		7C356A8F20A77B40000C7BF3 /* VC22_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A8E20A77B40000C7BF3 /* VC22_11.swift */; };
+		7C356A9120A98464000C7BF3 /* VC22_12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A9020A98464000C7BF3 /* VC22_12.swift */; };
+		7C356A9320A9A5C7000C7BF3 /* VC22_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A9220A9A5C7000C7BF3 /* VC22_13.swift */; };
+		7C356A9520A9CC88000C7BF3 /* VC22_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A9420A9CC88000C7BF3 /* VC22_14.swift */; };
+		7C356AB820AACA62000C7BF3 /* VC22_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356AB720AACA61000C7BF3 /* VC22_15.swift */; };
 		7C53B729206C3C53004A1A48 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B728206C3C53004A1A48 /* swift+gif.swift */; };
 		7C53B72B206C400A004A1A48 /* homer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C53B72A206C4009004A1A48 /* homer.gif */; };
 		7C53B72D206C5A1A004A1A48 /* VC11_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B72C206C5A1A004A1A48 /* VC11_3.swift */; };
@@ -110,6 +119,15 @@
 		7C2ABDE0208E508A00F5D38B /* VC21??_Take_Foto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC21??_Take_Foto.swift"; sourceTree = "<group>"; };
 		7C2F875B20666D60004D395E /* VC8_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC8_1.swift; sourceTree = "<group>"; };
 		7C356A8320A2F82E000C7BF3 /* AbstractFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryVC.swift; sourceTree = "<group>"; };
+		7C356A8520A47069000C7BF3 /* VC21_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC21_1.swift; sourceTree = "<group>"; };
+		7C356A8720A5A160000C7BF3 /* VC22_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_0.swift; sourceTree = "<group>"; };
+		7C356A8920A5A88A000C7BF3 /* VC22_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_01.swift; sourceTree = "<group>"; };
+		7C356A8B20A5DFAA000C7BF3 /* VC22_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_1.swift; sourceTree = "<group>"; };
+		7C356A8E20A77B40000C7BF3 /* VC22_11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_11.swift; sourceTree = "<group>"; };
+		7C356A9020A98464000C7BF3 /* VC22_12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_12.swift; sourceTree = "<group>"; };
+		7C356A9220A9A5C7000C7BF3 /* VC22_13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_13.swift; sourceTree = "<group>"; };
+		7C356A9420A9CC88000C7BF3 /* VC22_14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_14.swift; sourceTree = "<group>"; };
+		7C356AB720AACA61000C7BF3 /* VC22_15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_15.swift; sourceTree = "<group>"; };
 		7C53B728206C3C53004A1A48 /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
 		7C53B72A206C4009004A1A48 /* homer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = homer.gif; sourceTree = "<group>"; };
 		7C53B72C206C5A1A004A1A48 /* VC11_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_3.swift; sourceTree = "<group>"; };
@@ -324,6 +342,15 @@
 				7CEAA8B8208BDB6F00BA49E6 /* VC21_0.swift */,
 				7CEAA8BA208BDE5D00BA49E6 /* VC21_01.swift */,
 				7CEAA8BC208BFCFC00BA49E6 /* VC21_02.swift */,
+				7C356A8520A47069000C7BF3 /* VC21_1.swift */,
+				7C356A8720A5A160000C7BF3 /* VC22_0.swift */,
+				7C356A8920A5A88A000C7BF3 /* VC22_01.swift */,
+				7C356A8B20A5DFAA000C7BF3 /* VC22_1.swift */,
+				7C356A8E20A77B40000C7BF3 /* VC22_11.swift */,
+				7C356A9020A98464000C7BF3 /* VC22_12.swift */,
+				7C356A9220A9A5C7000C7BF3 /* VC22_13.swift */,
+				7C356A9420A9CC88000C7BF3 /* VC22_14.swift */,
+				7C356AB720AACA61000C7BF3 /* VC22_15.swift */,
 				7C2ABDE0208E508A00F5D38B /* VC21??_Take_Foto.swift */,
 			);
 			path = arhiveVCs;
@@ -425,6 +452,7 @@
 				7CAF34012074E34200D909E4 /* VC16_test.swift in Sources */,
 				7CCCA61C20853B5900549D42 /* VC19_1.swift in Sources */,
 				7C697AC52087927900B9B562 /* VC20_1.swift in Sources */,
+				7C356A8F20A77B40000C7BF3 /* VC22_11.swift in Sources */,
 				E3B9A96C20623A2C0052E312 /* VC6_2_Player.swift in Sources */,
 				7C53B729206C3C53004A1A48 /* swift+gif.swift in Sources */,
 				7CCCA610207D2CD700549D42 /* VC18_0.swift in Sources */,
@@ -445,19 +473,24 @@
 				E3B9A96E2062CF960052E312 /* CoreDataFunctions.swift in Sources */,
 				7C0B2130206BB90500F083F9 /* VC11_2.swift in Sources */,
 				7CCCA60E207B74A200549D42 /* VC17_3.swift in Sources */,
+				7C356A9120A98464000C7BF3 /* VC22_12.swift in Sources */,
 				7CEAA8B9208BDB6F00BA49E6 /* VC21_0.swift in Sources */,
 				7CEAA8BB208BDE5D00BA49E6 /* VC21_01.swift in Sources */,
 				E3F7AEE52060096B00FBC190 /* VC6_1.swift in Sources */,
 				7C28C3962097BA23009C7069 /* PrototypeVC.swift in Sources */,
+				7C356A8C20A5DFAA000C7BF3 /* VC22_1.swift in Sources */,
 				7CAF34032074E35400D909E4 /* VC16_2.swift in Sources */,
 				7CAF33DC20727AAB00D909E4 /* ViewControllerForScroll.swift in Sources */,
 				E35A6BC3205F2F8300D865F1 /* InitViewController.swift in Sources */,
+				7C356AB820AACA62000C7BF3 /* VC22_15.swift in Sources */,
 				7CAF33D22071004C00D909E4 /* VC13_2.swift in Sources */,
+				7C356A8A20A5A88A000C7BF3 /* VC22_01.swift in Sources */,
 				7CCCA60A207B656800549D42 /* VC17_0_second.swift in Sources */,
 				7CCCA6182084CF5900549D42 /* VC18_0_SFSafari.swift in Sources */,
 				7C697AC92087984B00B9B562 /* CarHelper.swift in Sources */,
 				E35A6BD1205F30EA00D865F1 /* VC5_4_SecondView.swift in Sources */,
 				7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */,
+				7C356A8620A47069000C7BF3 /* VC21_1.swift in Sources */,
 				7CAF33D82071700E00D909E4 /* VC14_0.swift in Sources */,
 				7C0B2128206942C200F083F9 /* VC9_0_1.swift in Sources */,
 				E3B9A9702063BF090052E312 /* VC7_1.swift in Sources */,
@@ -469,11 +502,13 @@
 				7C0B212A2069470000F083F9 /* VC9_0_2.swift in Sources */,
 				7C68AE6320A1D1F20081E777 /* FactoryMethotVC.swift in Sources */,
 				7C0B212E206BB25A00F083F9 /* VC11_1.swift in Sources */,
+				7C356A8820A5A161000C7BF3 /* VC22_0.swift in Sources */,
 				E35A6BBF205F2F0400D865F1 /* GlobalVariables.swift in Sources */,
 				7C356A8420A2F82E000C7BF3 /* AbstractFactoryVC.swift in Sources */,
 				E35A6BC1205F2F5E00D865F1 /* ExtensionForVC.swift in Sources */,
 				7C53B72D206C5A1A004A1A48 /* VC11_3.swift in Sources */,
 				7CAF33CE2070FFE200D909E4 /* VC13_0.swift in Sources */,
+				7C356A9520A9CC88000C7BF3 /* VC22_14.swift in Sources */,
 				7CEAA8BD208BFCFC00BA49E6 /* VC21_02.swift in Sources */,
 				E35A6BCF205F30BF00D865F1 /* VC5_4.swift in Sources */,
 				E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */,
@@ -482,6 +517,7 @@
 				7C0B212C20694B5900F083F9 /* VC9_0_3.swift in Sources */,
 				E3B9A97720642BE80052E312 /* VC7_1_Second.swift in Sources */,
 				E35A6BC5205F2FAE00D865F1 /* VC5_5.swift in Sources */,
+				7C356A9320A9A5C7000C7BF3 /* VC22_13.swift in Sources */,
 				7CCCA61A2084E2D400549D42 /* VC19_0.swift in Sources */,
 				E35A6BCB205F305700D865F1 /* VC5_1_2.swift in Sources */,
 				E35A6BCD205F308D00D865F1 /* VC5_2.swift in Sources */,
