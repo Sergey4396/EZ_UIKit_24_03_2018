@@ -29,12 +29,15 @@ class VC21_0: MyVC {
         squareView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         squareView.backgroundColor = .green
         squareView.center = view.center
+        squareView.center.y = h95
         view.addSubview(squareView)
         
         // создаем аниматор и тяготение
         animator = UIDynamicAnimator(referenceView: view)
         let gravity = UIGravityBehavior(items: [squareView])
+        gravity.setAngle(-CGFloat.pi / 2, magnitude: 4)
         animator.addBehavior(gravity)
+    //    UIGravityBehavior().angle = 90
         
     }
 
