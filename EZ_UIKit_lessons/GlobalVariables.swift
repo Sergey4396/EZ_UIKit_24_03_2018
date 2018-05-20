@@ -102,6 +102,7 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "VC22_13", controller: VC22_13())
     _ = AllFirstControllersStruct(name: "VC22_14", controller: VC22_14())
     _ = AllFirstControllersStruct(name: "VC22_15", controller: VC22_15())
+    _ = AllFirstControllersStruct(name: "VC22_16", controller: VC22_16())
     _ = AllFirstControllersStruct(name: "Patterns", controller: PatternsVC())
     
     isVCset = true
@@ -128,6 +129,10 @@ func setVCNamesForAllPatterns(){
     _ = AllPatternsControllersStruct(name: "Simple Factory", controller: SimpleFactoryVC())
     _ = AllPatternsControllersStruct(name: "Factory Methot", controller: FactoryMethotVC())
     _ = AllPatternsControllersStruct(name: "Abstract Factory", controller: AbstractFactoryVC())
+    _ = AllPatternsControllersStruct(name: "Singletone", controller: SingletoneVC())
+    _ = AllPatternsControllersStruct(name: "Command", controller: CommandVC())
+    _ = AllPatternsControllersStruct(name: "Adapter", controller: AdapterVC())
+    
 
     
 
