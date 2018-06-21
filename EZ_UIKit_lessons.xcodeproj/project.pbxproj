@@ -30,6 +30,8 @@
 		7C356A9320A9A5C7000C7BF3 /* VC22_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A9220A9A5C7000C7BF3 /* VC22_13.swift */; };
 		7C356A9520A9CC88000C7BF3 /* VC22_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A9420A9CC88000C7BF3 /* VC22_14.swift */; };
 		7C356AB820AACA62000C7BF3 /* VC22_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356AB720AACA61000C7BF3 /* VC22_15.swift */; };
+		7C43F3EA20DC010100C2E2F5 /* RecordingAudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43F3E920DC010100C2E2F5 /* RecordingAudioVC.swift */; };
+		7C43F3EC20DC31BC00C2E2F5 /* RecordingAudioVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43F3EB20DC31BC00C2E2F5 /* RecordingAudioVC2.swift */; };
 		7C53B729206C3C53004A1A48 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B728206C3C53004A1A48 /* swift+gif.swift */; };
 		7C53B72B206C400A004A1A48 /* homer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C53B72A206C4009004A1A48 /* homer.gif */; };
 		7C53B72D206C5A1A004A1A48 /* VC11_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B72C206C5A1A004A1A48 /* VC11_3.swift */; };
@@ -59,6 +61,13 @@
 		7CAF34012074E34200D909E4 /* VC16_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF34002074E34100D909E4 /* VC16_test.swift */; };
 		7CAF34032074E35400D909E4 /* VC16_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF34022074E35400D909E4 /* VC16_2.swift */; };
 		7CAF340520763C3400D909E4 /* VC16_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF340420763C3400D909E4 /* VC16_1.swift */; };
+		7CB75B9F20D8EAAD00FBCEB7 /* VC_Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB75B9E20D8EAAD00FBCEB7 /* VC_Drawing.swift */; };
+		7CB75BA120D9329800FBCEB7 /* VC_Drawind2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB75BA020D9329800FBCEB7 /* VC_Drawind2.swift */; };
+		7CC4A73420C473CB00AB82E4 /* VC24_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC4A73320C473CB00AB82E4 /* VC24_0.swift */; };
+		7CC4A73620C47E7700AB82E4 /* VC24_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC4A73520C47E7700AB82E4 /* VC24_01.swift */; };
+		7CC4A73820C4867D00AB82E4 /* VC24_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC4A73720C4867D00AB82E4 /* VC24_02.swift */; };
+		7CC4A73A20C534D700AB82E4 /* VC24_03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC4A73920C534D600AB82E4 /* VC24_03.swift */; };
+		7CC4A73C20C5465100AB82E4 /* VC24_04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC4A73B20C5465100AB82E4 /* VC24_04.swift */; };
 		7CCCA60A207B656800549D42 /* VC17_0_second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCA609207B656800549D42 /* VC17_0_second.swift */; };
 		7CCCA60C207B727C00549D42 /* VC17_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCA60B207B727C00549D42 /* VC17_2.swift */; };
 		7CCCA60E207B74A200549D42 /* VC17_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCA60D207B74A200549D42 /* VC17_3.swift */; };
@@ -132,6 +141,8 @@
 		7C356A9220A9A5C7000C7BF3 /* VC22_13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_13.swift; sourceTree = "<group>"; };
 		7C356A9420A9CC88000C7BF3 /* VC22_14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_14.swift; sourceTree = "<group>"; };
 		7C356AB720AACA61000C7BF3 /* VC22_15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_15.swift; sourceTree = "<group>"; };
+		7C43F3E920DC010100C2E2F5 /* RecordingAudioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingAudioVC.swift; sourceTree = "<group>"; };
+		7C43F3EB20DC31BC00C2E2F5 /* RecordingAudioVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingAudioVC2.swift; sourceTree = "<group>"; };
 		7C53B728206C3C53004A1A48 /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
 		7C53B72A206C4009004A1A48 /* homer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = homer.gif; sourceTree = "<group>"; };
 		7C53B72C206C5A1A004A1A48 /* VC11_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_3.swift; sourceTree = "<group>"; };
@@ -161,6 +172,13 @@
 		7CAF34002074E34100D909E4 /* VC16_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC16_test.swift; sourceTree = "<group>"; };
 		7CAF34022074E35400D909E4 /* VC16_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC16_2.swift; sourceTree = "<group>"; };
 		7CAF340420763C3400D909E4 /* VC16_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC16_1.swift; sourceTree = "<group>"; };
+		7CB75B9E20D8EAAD00FBCEB7 /* VC_Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Drawing.swift; sourceTree = "<group>"; };
+		7CB75BA020D9329800FBCEB7 /* VC_Drawind2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Drawind2.swift; sourceTree = "<group>"; };
+		7CC4A73320C473CB00AB82E4 /* VC24_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC24_0.swift; sourceTree = "<group>"; };
+		7CC4A73520C47E7700AB82E4 /* VC24_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC24_01.swift; sourceTree = "<group>"; };
+		7CC4A73720C4867D00AB82E4 /* VC24_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC24_02.swift; sourceTree = "<group>"; };
+		7CC4A73920C534D600AB82E4 /* VC24_03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC24_03.swift; sourceTree = "<group>"; };
+		7CC4A73B20C5465100AB82E4 /* VC24_04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC24_04.swift; sourceTree = "<group>"; };
 		7CCCA609207B656800549D42 /* VC17_0_second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC17_0_second.swift; sourceTree = "<group>"; };
 		7CCCA60B207B727C00549D42 /* VC17_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC17_2.swift; sourceTree = "<group>"; };
 		7CCCA60D207B74A200549D42 /* VC17_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC17_3.swift; sourceTree = "<group>"; };
@@ -364,6 +382,15 @@
 				7C356AB720AACA61000C7BF3 /* VC22_15.swift */,
 				7CD24E0A20AD71040048D4EE /* VC22_16.swift */,
 				7C2ABDE0208E508A00F5D38B /* VC21??_Take_Foto.swift */,
+				7CC4A73320C473CB00AB82E4 /* VC24_0.swift */,
+				7CC4A73520C47E7700AB82E4 /* VC24_01.swift */,
+				7CC4A73720C4867D00AB82E4 /* VC24_02.swift */,
+				7CC4A73920C534D600AB82E4 /* VC24_03.swift */,
+				7CC4A73B20C5465100AB82E4 /* VC24_04.swift */,
+				7CB75B9E20D8EAAD00FBCEB7 /* VC_Drawing.swift */,
+				7CB75BA020D9329800FBCEB7 /* VC_Drawind2.swift */,
+				7C43F3E920DC010100C2E2F5 /* RecordingAudioVC.swift */,
+				7C43F3EB20DC31BC00C2E2F5 /* RecordingAudioVC2.swift */,
 			);
 			path = arhiveVCs;
 			sourceTree = "<group>";
@@ -468,6 +495,7 @@
 				E3B9A96C20623A2C0052E312 /* VC6_2_Player.swift in Sources */,
 				7C53B729206C3C53004A1A48 /* swift+gif.swift in Sources */,
 				7CCCA610207D2CD700549D42 /* VC18_0.swift in Sources */,
+				7CC4A73C20C5465100AB82E4 /* VC24_04.swift in Sources */,
 				7C697ACF2088D5C200B9B562 /* VC20_2.swift in Sources */,
 				7C2ABDE1208E508A00F5D38B /* VC21??_Take_Foto.swift in Sources */,
 				E35A6BC9205F302300D865F1 /* VC5_1.swift in Sources */,
@@ -484,8 +512,10 @@
 				7C697AC7208793E200B9B562 /* MyPageViewController.swift in Sources */,
 				E3B9A96E2062CF960052E312 /* CoreDataFunctions.swift in Sources */,
 				7C0B2130206BB90500F083F9 /* VC11_2.swift in Sources */,
+				7CC4A73820C4867D00AB82E4 /* VC24_02.swift in Sources */,
 				7CCCA60E207B74A200549D42 /* VC17_3.swift in Sources */,
 				7C356A9120A98464000C7BF3 /* VC22_12.swift in Sources */,
+				7CC4A73A20C534D700AB82E4 /* VC24_03.swift in Sources */,
 				7CEAA8B9208BDB6F00BA49E6 /* VC21_0.swift in Sources */,
 				7CEAA8BB208BDE5D00BA49E6 /* VC21_01.swift in Sources */,
 				E3F7AEE52060096B00FBC190 /* VC6_1.swift in Sources */,
@@ -495,15 +525,18 @@
 				7CAF33DC20727AAB00D909E4 /* ViewControllerForScroll.swift in Sources */,
 				E35A6BC3205F2F8300D865F1 /* InitViewController.swift in Sources */,
 				7C356AB820AACA62000C7BF3 /* VC22_15.swift in Sources */,
+				7C43F3EC20DC31BC00C2E2F5 /* RecordingAudioVC2.swift in Sources */,
 				7CAF33D22071004C00D909E4 /* VC13_2.swift in Sources */,
 				7CD24E0F20AE92700048D4EE /* CommandVC.swift in Sources */,
 				7C356A8A20A5A88A000C7BF3 /* VC22_01.swift in Sources */,
 				7CCCA60A207B656800549D42 /* VC17_0_second.swift in Sources */,
+				7C43F3EA20DC010100C2E2F5 /* RecordingAudioVC.swift in Sources */,
 				7CCCA6182084CF5900549D42 /* VC18_0_SFSafari.swift in Sources */,
 				7CD24E0D20AE8E2B0048D4EE /* SingletoneVC.swift in Sources */,
 				7C697AC92087984B00B9B562 /* CarHelper.swift in Sources */,
 				E35A6BD1205F30EA00D865F1 /* VC5_4_SecondView.swift in Sources */,
 				7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */,
+				7CB75BA120D9329800FBCEB7 /* VC_Drawind2.swift in Sources */,
 				7C356A8620A47069000C7BF3 /* VC21_1.swift in Sources */,
 				7CD24E1120B1A8000048D4EE /* AdapterVC.swift in Sources */,
 				7CAF33D82071700E00D909E4 /* VC14_0.swift in Sources */,
@@ -527,6 +560,7 @@
 				7CEAA8BD208BFCFC00BA49E6 /* VC21_02.swift in Sources */,
 				E35A6BCF205F30BF00D865F1 /* VC5_4.swift in Sources */,
 				E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */,
+				7CC4A73420C473CB00AB82E4 /* VC24_0.swift in Sources */,
 				7C697ACB2088D57000B9B562 /* GreetingsPageVC.swift in Sources */,
 				7CCCA6122084ADE600549D42 /* VC18_0_UI.swift in Sources */,
 				7C0B212C20694B5900F083F9 /* VC9_0_3.swift in Sources */,
@@ -536,12 +570,14 @@
 				7CCCA61A2084E2D400549D42 /* VC19_0.swift in Sources */,
 				E35A6BCB205F305700D865F1 /* VC5_1_2.swift in Sources */,
 				E35A6BCD205F308D00D865F1 /* VC5_2.swift in Sources */,
+				7CB75B9F20D8EAAD00FBCEB7 /* VC_Drawing.swift in Sources */,
 				7CAF33CA206E4BBF00D909E4 /* VC12.swift in Sources */,
 				7CDD99EB207967E80032C041 /* VC17_1.swift in Sources */,
 				7CDD99ED207B58ED0032C041 /* VC17_0.swift in Sources */,
 				7C68AE6120A1CCA20081E777 /* SimpleFactoryVC.swift in Sources */,
 				E3B9A9722063C5640052E312 /* MyVCClass.swift in Sources */,
 				7CAF33FF2072BA2C00D909E4 /* VC15_1.swift in Sources */,
+				7CC4A73620C47E7700AB82E4 /* VC24_01.swift in Sources */,
 				7CAF33D620716B2C00D909E4 /* VC13_0_third.swift in Sources */,
 				E35A6BD4205F387400D865F1 /* VC5_5_SecondView.swift in Sources */,
 				7CD24E0B20AD71040048D4EE /* VC22_16.swift in Sources */,
