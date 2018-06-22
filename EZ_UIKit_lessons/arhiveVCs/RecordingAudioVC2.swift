@@ -10,14 +10,17 @@
 import UIKit
 import AVFoundation
 
-class RecordingAudioVC2: MyVC, AVAudioRecorderDelegate{
+class RecordingAudioVC2: MyVC, AVAudioRecorderDelegate, UITableViewDelegate, UITableViewDataSource{
 
     var recordingSession:AVAudioSession!
     var audioRecorder: AVAudioRecorder!
+    var audioPlayer: AVAudioPlayer!
     
-    var numberOfRecords = 0
+    
+    var numberOfRecords : Int = 0
     
     var recordButton: UIButton!
+    var myTableView : UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,15 +28,58 @@ class RecordingAudioVC2: MyVC, AVAudioRecorderDelegate{
 // ask for permission
         recordingSession = AVAudioSession.sharedInstance()
         
+        if let number:Int = UserDefaults.standard.object(forKey: "myNumber") as? Int{
+            numberOfRecords = number
+        }
+        
         AVAudioSession.sharedInstance().requestRecordPermission { (hasPermission) in
             if hasPermission{
                 print("ACCEPTED")
             }
         }
 
-        recordButton = ssButton(title: "Start recording", width: 40, height: 10, x: 50, y: 50)
+        recordButton = ssButton(title: "Start recording", width: 40, height: 10, x: 50, y: 15)
+        myTableView = UITableView(frame: CGRect(x: 0, y: h30, width: w, height: h65))
+        myTableView.delegate = self
+        myTableView.dataSource = self
+        view.addSubview(myTableView)
+        
+        myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
 
     }
+    
+    //🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻 блок функций для тейблвью{
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        
+        return numberOfRecords
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = "\(indexPath.row + 1) sound"
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("row selected: \(indexPath.row)")
+        
+        let path = getDirectory().appendingPathComponent("\(indexPath.row + 1).m4a")
+        do{
+          audioPlayer = try AVAudioPlayer(contentsOf: path)
+            audioPlayer.play()
+        }
+
+        catch{
+            
+        }
+
+    }
+
+    //🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹}
     
     override func ffButton(sender: UIButton) {
         //chek if we have an active recorder
@@ -59,6 +105,9 @@ class RecordingAudioVC2: MyVC, AVAudioRecorderDelegate{
             audioRecorder.stop()
             audioRecorder = nil
             
+            UserDefaults.standard.set(numberOfRecords, forKey: "myNumber")
+            myTableView.reloadData()
+            
             recordButton.setTitle("Start recording", for: .normal)
         }
         
@@ -78,5 +127,7 @@ class RecordingAudioVC2: MyVC, AVAudioRecorderDelegate{
         alert.addAction(UIAlertAction(title: "dismiss", style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
     }
+    
+    
 
 }
