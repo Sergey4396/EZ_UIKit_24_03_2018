@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C05118420F8D72C006BE9BD /* JSONFromSiteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05118320F8D72C006BE9BD /* JSONFromSiteVC.swift */; };
+		7C05118620FC90F2006BE9BD /* MyKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05118520FC90F2006BE9BD /* MyKeyboard.swift */; };
+		7C05118820FCBCA0006BE9BD /* MyKeyBoardObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C05118720FCBC9F006BE9BD /* MyKeyBoardObject.swift */; };
 		7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B212520693FD400F083F9 /* VC9_0.swift */; };
 		7C0B2128206942C200F083F9 /* VC9_0_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B2127206942C200F083F9 /* VC9_0_1.swift */; };
 		7C0B212A2069470000F083F9 /* VC9_0_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B21292069470000F083F9 /* VC9_0_2.swift */; };
 		7C0B212C20694B5900F083F9 /* VC9_0_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B212B20694B5900F083F9 /* VC9_0_3.swift */; };
 		7C0B212E206BB25A00F083F9 /* VC11_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B212D206BB25A00F083F9 /* VC11_1.swift */; };
 		7C0B2130206BB90500F083F9 /* VC11_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B212F206BB90500F083F9 /* VC11_2.swift */; };
+		7C25DCA520E8226300ACD8D6 /* CALayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25DCA420E8226300ACD8D6 /* CALayerVC.swift */; };
+		7C25DCA720EA46DC00ACD8D6 /* btnShadow+CornerR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25DCA620EA46DC00ACD8D6 /* btnShadow+CornerR.swift */; };
+		7C25DCA920EA8A5800ACD8D6 /* NiseButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25DCA820EA8A5800ACD8D6 /* NiseButtonVC.swift */; };
+		7C25DCC920EB542A00ACD8D6 /* NiseButtonwhithShadowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25DCC820EB542A00ACD8D6 /* NiseButtonwhithShadowVC.swift */; };
+		7C25DCCB20EB83EE00ACD8D6 /* NiseButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25DCCA20EB83EE00ACD8D6 /* NiseButton2.swift */; };
 		7C28C391209796DB009C7069 /* PatternsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28C390209796DB009C7069 /* PatternsVC.swift */; };
 		7C28C39420979A37009C7069 /* ObserverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28C39320979A37009C7069 /* ObserverVC.swift */; };
 		7C28C3962097BA23009C7069 /* PrototypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28C3952097BA23009C7069 /* PrototypeVC.swift */; };
@@ -32,6 +40,7 @@
 		7C356AB820AACA62000C7BF3 /* VC22_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356AB720AACA61000C7BF3 /* VC22_15.swift */; };
 		7C43F3EA20DC010100C2E2F5 /* RecordingAudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43F3E920DC010100C2E2F5 /* RecordingAudioVC.swift */; };
 		7C43F3EC20DC31BC00C2E2F5 /* RecordingAudioVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43F3EB20DC31BC00C2E2F5 /* RecordingAudioVC2.swift */; };
+		7C4A26DA2105F92B00F92D8B /* DrawingVC_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A26D92105F92B00F92D8B /* DrawingVC_3.swift */; };
 		7C53B729206C3C53004A1A48 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B728206C3C53004A1A48 /* swift+gif.swift */; };
 		7C53B72B206C400A004A1A48 /* homer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7C53B72A206C4009004A1A48 /* homer.gif */; };
 		7C53B72D206C5A1A004A1A48 /* VC11_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53B72C206C5A1A004A1A48 /* VC11_3.swift */; };
@@ -118,12 +127,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C05118320F8D72C006BE9BD /* JSONFromSiteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFromSiteVC.swift; sourceTree = "<group>"; };
+		7C05118520FC90F2006BE9BD /* MyKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKeyboard.swift; sourceTree = "<group>"; };
+		7C05118720FCBC9F006BE9BD /* MyKeyBoardObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKeyBoardObject.swift; sourceTree = "<group>"; };
 		7C0B212520693FD400F083F9 /* VC9_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC9_0.swift; sourceTree = "<group>"; };
 		7C0B2127206942C200F083F9 /* VC9_0_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC9_0_1.swift; sourceTree = "<group>"; };
 		7C0B21292069470000F083F9 /* VC9_0_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC9_0_2.swift; sourceTree = "<group>"; };
 		7C0B212B20694B5900F083F9 /* VC9_0_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC9_0_3.swift; sourceTree = "<group>"; };
 		7C0B212D206BB25A00F083F9 /* VC11_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_1.swift; sourceTree = "<group>"; };
 		7C0B212F206BB90500F083F9 /* VC11_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_2.swift; sourceTree = "<group>"; };
+		7C25DCA420E8226300ACD8D6 /* CALayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerVC.swift; sourceTree = "<group>"; };
+		7C25DCA620EA46DC00ACD8D6 /* btnShadow+CornerR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "btnShadow+CornerR.swift"; sourceTree = "<group>"; };
+		7C25DCA820EA8A5800ACD8D6 /* NiseButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiseButtonVC.swift; sourceTree = "<group>"; };
+		7C25DCC820EB542A00ACD8D6 /* NiseButtonwhithShadowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiseButtonwhithShadowVC.swift; sourceTree = "<group>"; };
+		7C25DCCA20EB83EE00ACD8D6 /* NiseButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiseButton2.swift; sourceTree = "<group>"; };
 		7C28C390209796DB009C7069 /* PatternsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsVC.swift; sourceTree = "<group>"; };
 		7C28C39320979A37009C7069 /* ObserverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverVC.swift; sourceTree = "<group>"; };
 		7C28C3952097BA23009C7069 /* PrototypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeVC.swift; sourceTree = "<group>"; };
@@ -143,6 +160,7 @@
 		7C356AB720AACA61000C7BF3 /* VC22_15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC22_15.swift; sourceTree = "<group>"; };
 		7C43F3E920DC010100C2E2F5 /* RecordingAudioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingAudioVC.swift; sourceTree = "<group>"; };
 		7C43F3EB20DC31BC00C2E2F5 /* RecordingAudioVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingAudioVC2.swift; sourceTree = "<group>"; };
+		7C4A26D92105F92B00F92D8B /* DrawingVC_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingVC_3.swift; sourceTree = "<group>"; };
 		7C53B728206C3C53004A1A48 /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
 		7C53B72A206C4009004A1A48 /* homer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = homer.gif; sourceTree = "<group>"; };
 		7C53B72C206C5A1A004A1A48 /* VC11_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC11_3.swift; sourceTree = "<group>"; };
@@ -391,6 +409,15 @@
 				7CB75BA020D9329800FBCEB7 /* VC_Drawind2.swift */,
 				7C43F3E920DC010100C2E2F5 /* RecordingAudioVC.swift */,
 				7C43F3EB20DC31BC00C2E2F5 /* RecordingAudioVC2.swift */,
+				7C25DCA420E8226300ACD8D6 /* CALayerVC.swift */,
+				7C25DCA620EA46DC00ACD8D6 /* btnShadow+CornerR.swift */,
+				7C25DCA820EA8A5800ACD8D6 /* NiseButtonVC.swift */,
+				7C25DCC820EB542A00ACD8D6 /* NiseButtonwhithShadowVC.swift */,
+				7C25DCCA20EB83EE00ACD8D6 /* NiseButton2.swift */,
+				7C05118320F8D72C006BE9BD /* JSONFromSiteVC.swift */,
+				7C05118520FC90F2006BE9BD /* MyKeyboard.swift */,
+				7C05118720FCBC9F006BE9BD /* MyKeyBoardObject.swift */,
+				7C4A26D92105F92B00F92D8B /* DrawingVC_3.swift */,
 			);
 			path = arhiveVCs;
 			sourceTree = "<group>";
@@ -497,6 +524,7 @@
 				7CCCA610207D2CD700549D42 /* VC18_0.swift in Sources */,
 				7CC4A73C20C5465100AB82E4 /* VC24_04.swift in Sources */,
 				7C697ACF2088D5C200B9B562 /* VC20_2.swift in Sources */,
+				7C25DCA520E8226300ACD8D6 /* CALayerVC.swift in Sources */,
 				7C2ABDE1208E508A00F5D38B /* VC21??_Take_Foto.swift in Sources */,
 				E35A6BC9205F302300D865F1 /* VC5_1.swift in Sources */,
 				7CAF340520763C3400D909E4 /* VC16_1.swift in Sources */,
@@ -505,6 +533,7 @@
 				7CCCA61E20853C9E00549D42 /* VC19_2.swift in Sources */,
 				7C28C391209796DB009C7069 /* PatternsVC.swift in Sources */,
 				7CAF33DA2072032E00D909E4 /* VC14_1.swift in Sources */,
+				7C05118420F8D72C006BE9BD /* JSONFromSiteVC.swift in Sources */,
 				E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */,
 				7C28C3982098BA86009C7069 /* StrategyVC.swift in Sources */,
 				7C53B72F206C5A5A004A1A48 /* VC11_4.swift in Sources */,
@@ -514,6 +543,7 @@
 				7C0B2130206BB90500F083F9 /* VC11_2.swift in Sources */,
 				7CC4A73820C4867D00AB82E4 /* VC24_02.swift in Sources */,
 				7CCCA60E207B74A200549D42 /* VC17_3.swift in Sources */,
+				7C25DCC920EB542A00ACD8D6 /* NiseButtonwhithShadowVC.swift in Sources */,
 				7C356A9120A98464000C7BF3 /* VC22_12.swift in Sources */,
 				7CC4A73A20C534D700AB82E4 /* VC24_03.swift in Sources */,
 				7CEAA8B9208BDB6F00BA49E6 /* VC21_0.swift in Sources */,
@@ -524,6 +554,7 @@
 				7CAF34032074E35400D909E4 /* VC16_2.swift in Sources */,
 				7CAF33DC20727AAB00D909E4 /* ViewControllerForScroll.swift in Sources */,
 				E35A6BC3205F2F8300D865F1 /* InitViewController.swift in Sources */,
+				7C4A26DA2105F92B00F92D8B /* DrawingVC_3.swift in Sources */,
 				7C356AB820AACA62000C7BF3 /* VC22_15.swift in Sources */,
 				7C43F3EC20DC31BC00C2E2F5 /* RecordingAudioVC2.swift in Sources */,
 				7CAF33D22071004C00D909E4 /* VC13_2.swift in Sources */,
@@ -534,11 +565,13 @@
 				7CCCA6182084CF5900549D42 /* VC18_0_SFSafari.swift in Sources */,
 				7CD24E0D20AE8E2B0048D4EE /* SingletoneVC.swift in Sources */,
 				7C697AC92087984B00B9B562 /* CarHelper.swift in Sources */,
+				7C25DCCB20EB83EE00ACD8D6 /* NiseButton2.swift in Sources */,
 				E35A6BD1205F30EA00D865F1 /* VC5_4_SecondView.swift in Sources */,
 				7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */,
 				7CB75BA120D9329800FBCEB7 /* VC_Drawind2.swift in Sources */,
 				7C356A8620A47069000C7BF3 /* VC21_1.swift in Sources */,
 				7CD24E1120B1A8000048D4EE /* AdapterVC.swift in Sources */,
+				7C25DCA720EA46DC00ACD8D6 /* btnShadow+CornerR.swift in Sources */,
 				7CAF33D82071700E00D909E4 /* VC14_0.swift in Sources */,
 				7C0B2128206942C200F083F9 /* VC9_0_1.swift in Sources */,
 				E3B9A9702063BF090052E312 /* VC7_1.swift in Sources */,
@@ -549,6 +582,7 @@
 				E3F7AEEA20613B1000FBC190 /* songClass.swift in Sources */,
 				7C0B212A2069470000F083F9 /* VC9_0_2.swift in Sources */,
 				7C68AE6320A1D1F20081E777 /* FactoryMethotVC.swift in Sources */,
+				7C25DCA920EA8A5800ACD8D6 /* NiseButtonVC.swift in Sources */,
 				7C0B212E206BB25A00F083F9 /* VC11_1.swift in Sources */,
 				7C356A8820A5A161000C7BF3 /* VC22_0.swift in Sources */,
 				E35A6BBF205F2F0400D865F1 /* GlobalVariables.swift in Sources */,
@@ -574,6 +608,7 @@
 				7CAF33CA206E4BBF00D909E4 /* VC12.swift in Sources */,
 				7CDD99EB207967E80032C041 /* VC17_1.swift in Sources */,
 				7CDD99ED207B58ED0032C041 /* VC17_0.swift in Sources */,
+				7C05118820FCBCA0006BE9BD /* MyKeyBoardObject.swift in Sources */,
 				7C68AE6120A1CCA20081E777 /* SimpleFactoryVC.swift in Sources */,
 				E3B9A9722063C5640052E312 /* MyVCClass.swift in Sources */,
 				7CAF33FF2072BA2C00D909E4 /* VC15_1.swift in Sources */,
@@ -581,6 +616,7 @@
 				7CAF33D620716B2C00D909E4 /* VC13_0_third.swift in Sources */,
 				E35A6BD4205F387400D865F1 /* VC5_5_SecondView.swift in Sources */,
 				7CD24E0B20AD71040048D4EE /* VC22_16.swift in Sources */,
+				7C05118620FC90F2006BE9BD /* MyKeyboard.swift in Sources */,
 				7C697ACD2088D5A500B9B562 /* GeetingsHelper.swift in Sources */,
 				7CAF33D4207163B000D909E4 /* VC13_0_Second.swift in Sources */,
 				E3B9A96A20623A140052E312 /* VC6_2_Settings.swift in Sources */,

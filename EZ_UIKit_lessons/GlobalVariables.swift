@@ -113,6 +113,15 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "VC_Drawind2", controller: VC_Drawind2())
 //    _ = AllFirstControllersStruct(name: "RecordingAudioVC", controller: RecordingAudioVC())
     _ = AllFirstControllersStruct(name: "RecordingAudioVC2", controller: RecordingAudioVC2())
+    _ = AllFirstControllersStruct(name: "CALayerVC", controller: CALayerVC())
+//    _ = AllFirstControllersStruct(name: "ButtonWithShadow", controller: buttonShadowAndCornerR())
+    _ = AllFirstControllersStruct(name: "NiseButtonVC", controller: NiseButtonVC())
+    _ = AllFirstControllersStruct(name: "NiseButton whithShadowVC", controller: NiseButtonwhithShadowVC())
+    _ = AllFirstControllersStruct(name: "NiseButton2VC", controller: NiseButton2VC())
+    _ = AllFirstControllersStruct(name: "JSONFromSiteVC", controller: JSONFromSiteVC())
+     _ = AllFirstControllersStruct(name: "MyKeyboardVC", controller: MyKeyboardVC())
+     _ = AllFirstControllersStruct(name: "MyKeyBoardObject", controller: MyKeyBoardObjectVC())
+     _ = AllFirstControllersStruct(name: "DrawingVC_3", controller: DrawingVC_3())
     
     
     isVCset = true
