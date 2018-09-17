@@ -122,7 +122,8 @@ func setVCNamesForAllLessons(){
      _ = AllFirstControllersStruct(name: "MyKeyboardVC", controller: MyKeyboardVC())
      _ = AllFirstControllersStruct(name: "MyKeyBoardObject", controller: MyKeyBoardObjectVC())
      _ = AllFirstControllersStruct(name: "DrawingVC_3", controller: DrawingVC_3())
-    
+     _ = AllFirstControllersStruct(name: "DrawingVC_4", controller: DrawingVC_4())
+    _ = AllFirstControllersStruct(name: "DrawingVC_5", controller: DrawingVC_5())
     
     isVCset = true
 }

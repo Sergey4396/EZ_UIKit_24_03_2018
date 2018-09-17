@@ -27,6 +27,8 @@
 		7C28C3982098BA86009C7069 /* StrategyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28C3972098BA86009C7069 /* StrategyVC.swift */; };
 		7C28C39A2098C3AE009C7069 /* DecoratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28C3992098C3AE009C7069 /* DecoratorVC.swift */; };
 		7C2ABDE1208E508A00F5D38B /* VC21??_Take_Foto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2ABDE0208E508A00F5D38B /* VC21??_Take_Foto.swift */; };
+		7C2B0BCD2150454300E5C075 /* DrawingVC_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B0BCC2150454300E5C075 /* DrawingVC_5.swift */; };
+		7C2B0BCF2150508500E5C075 /* DrawingVC_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B0BCE2150508500E5C075 /* DrawingVC_6.swift */; };
 		7C2F875C20666D60004D395E /* VC8_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2F875B20666D60004D395E /* VC8_1.swift */; };
 		7C356A8420A2F82E000C7BF3 /* AbstractFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A8320A2F82E000C7BF3 /* AbstractFactoryVC.swift */; };
 		7C356A8620A47069000C7BF3 /* VC21_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C356A8520A47069000C7BF3 /* VC21_1.swift */; };
@@ -97,6 +99,7 @@
 		7CEAA8B9208BDB6F00BA49E6 /* VC21_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEAA8B8208BDB6F00BA49E6 /* VC21_0.swift */; };
 		7CEAA8BB208BDE5D00BA49E6 /* VC21_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEAA8BA208BDE5D00BA49E6 /* VC21_01.swift */; };
 		7CEAA8BD208BFCFC00BA49E6 /* VC21_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEAA8BC208BFCFC00BA49E6 /* VC21_02.swift */; };
+		7CFF302121500F0A008C6B58 /* DrawingVC_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFF302021500F0A008C6B58 /* DrawingVC_4.swift */; };
 		E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */; };
 		E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BAB205F2E3A00D865F1 /* ViewController.swift */; };
 		E35A6BB2205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BB0205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld */; };
@@ -147,6 +150,8 @@
 		7C28C3972098BA86009C7069 /* StrategyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyVC.swift; sourceTree = "<group>"; };
 		7C28C3992098C3AE009C7069 /* DecoratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorVC.swift; sourceTree = "<group>"; };
 		7C2ABDE0208E508A00F5D38B /* VC21??_Take_Foto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC21??_Take_Foto.swift"; sourceTree = "<group>"; };
+		7C2B0BCC2150454300E5C075 /* DrawingVC_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingVC_5.swift; sourceTree = "<group>"; };
+		7C2B0BCE2150508500E5C075 /* DrawingVC_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingVC_6.swift; sourceTree = "<group>"; };
 		7C2F875B20666D60004D395E /* VC8_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC8_1.swift; sourceTree = "<group>"; };
 		7C356A8320A2F82E000C7BF3 /* AbstractFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryVC.swift; sourceTree = "<group>"; };
 		7C356A8520A47069000C7BF3 /* VC21_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC21_1.swift; sourceTree = "<group>"; };
@@ -217,6 +222,7 @@
 		7CEAA8B8208BDB6F00BA49E6 /* VC21_0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC21_0.swift; sourceTree = "<group>"; };
 		7CEAA8BA208BDE5D00BA49E6 /* VC21_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC21_01.swift; sourceTree = "<group>"; };
 		7CEAA8BC208BFCFC00BA49E6 /* VC21_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC21_02.swift; sourceTree = "<group>"; };
+		7CFF302021500F0A008C6B58 /* DrawingVC_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingVC_4.swift; sourceTree = "<group>"; };
 		E35A6BA6205F2E3A00D865F1 /* EZ_UIKit_lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZ_UIKit_lessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35A6BAB205F2E3A00D865F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -418,6 +424,9 @@
 				7C05118520FC90F2006BE9BD /* MyKeyboard.swift */,
 				7C05118720FCBC9F006BE9BD /* MyKeyBoardObject.swift */,
 				7C4A26D92105F92B00F92D8B /* DrawingVC_3.swift */,
+				7CFF302021500F0A008C6B58 /* DrawingVC_4.swift */,
+				7C2B0BCC2150454300E5C075 /* DrawingVC_5.swift */,
+				7C2B0BCE2150508500E5C075 /* DrawingVC_6.swift */,
 			);
 			path = arhiveVCs;
 			sourceTree = "<group>";
@@ -552,6 +561,7 @@
 				7C28C3962097BA23009C7069 /* PrototypeVC.swift in Sources */,
 				7C356A8C20A5DFAA000C7BF3 /* VC22_1.swift in Sources */,
 				7CAF34032074E35400D909E4 /* VC16_2.swift in Sources */,
+				7CFF302121500F0A008C6B58 /* DrawingVC_4.swift in Sources */,
 				7CAF33DC20727AAB00D909E4 /* ViewControllerForScroll.swift in Sources */,
 				E35A6BC3205F2F8300D865F1 /* InitViewController.swift in Sources */,
 				7C4A26DA2105F92B00F92D8B /* DrawingVC_3.swift in Sources */,
@@ -565,6 +575,7 @@
 				7CCCA6182084CF5900549D42 /* VC18_0_SFSafari.swift in Sources */,
 				7CD24E0D20AE8E2B0048D4EE /* SingletoneVC.swift in Sources */,
 				7C697AC92087984B00B9B562 /* CarHelper.swift in Sources */,
+				7C2B0BCF2150508500E5C075 /* DrawingVC_6.swift in Sources */,
 				7C25DCCB20EB83EE00ACD8D6 /* NiseButton2.swift in Sources */,
 				E35A6BD1205F30EA00D865F1 /* VC5_4_SecondView.swift in Sources */,
 				7C0B212620693FD400F083F9 /* VC9_0.swift in Sources */,
@@ -589,6 +600,7 @@
 				7C356A8420A2F82E000C7BF3 /* AbstractFactoryVC.swift in Sources */,
 				E35A6BC1205F2F5E00D865F1 /* ExtensionForVC.swift in Sources */,
 				7C53B72D206C5A1A004A1A48 /* VC11_3.swift in Sources */,
+				7C2B0BCD2150454300E5C075 /* DrawingVC_5.swift in Sources */,
 				7CAF33CE2070FFE200D909E4 /* VC13_0.swift in Sources */,
 				7C356A9520A9CC88000C7BF3 /* VC22_14.swift in Sources */,
 				7CEAA8BD208BFCFC00BA49E6 /* VC21_02.swift in Sources */,

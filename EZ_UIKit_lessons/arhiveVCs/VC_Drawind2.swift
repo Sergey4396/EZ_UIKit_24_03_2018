@@ -48,8 +48,9 @@ class DrawView: UIView {
         
         if(index >= 0){
             let context = UIGraphicsGetCurrentContext()
-            context!.setLineWidth(5)
-            context!.setStrokeColor((UIColor(red:0.00, green:0.38, blue:0.83, alpha:1.0)).cgColor)
+            context!.setLineWidth(w/30)
+            let x = UIColor(patternImage: UIImage(named: "s1200")!)
+            context!.setStrokeColor(x.cgColor)//((UIColor(red:0.00, green:0.38, blue:0.83, alpha:1.0)).cgColor)
             context!.setLineCap(.round)
             
             var j = 0
